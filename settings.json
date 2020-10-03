@@ -1,0 +1,586 @@
+{
+    //////////////////
+    //*PER LANGUAGE*//
+    //////////////////
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.detectIndentation": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.suggest.statusBar.visible": true,
+    },
+    "[css]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter",
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 400,
+    "prettier.vueIndentScriptAndStyle": false,
+    ////////////
+    // EDITOR //
+    ////////////
+    "editor.overviewRulerBorder": false,
+    "editor.hover.delay": 350,
+    "editor.autoIndent": "brackets",
+    "editor.fontFamily": "'Fira Code Light', 'Inconsolata', 'Droid Sans Mono', 'monospace'",
+    "editor.lineHeight": 17, // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.fontLigatures": false,
+    "editor.matchBrackets": "always",
+    "editor.formatOnSave": false,
+    "formatContextMenu.saveAft1erFormat": false,
+    "editor.formatOnType": false,
+    "editor.dragAndDrop": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.find.seedSearchStringFromSelection": false,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.accessibilitySupport": "off",
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": false,
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorSurroundingLines": 10,
+    "editor.letterSpacing": 0.4,
+    "editor.suggest.showKeywords": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.quickSuggestionsDelay": 100,
+    "editor.renderControlCharacters": true,
+    "editor.showFoldingControls": "mouseover",
+    "editor.snippetSuggestions": "inline",
+    "editor.parameterHints.enabled": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.tabCompletion": "on",
+    "editor.wordBasedSuggestions": true,
+    "editor.wordWrap": "off",
+    // The following three options say do not work but actually do.
+    // They're used together with "editor.minimap.showSlider": "always"
+    // to use the minimap slider as the scrollbar.
+    // "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 100,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fill",
+    "editor.minimap.scale": 2,
+    "editor.minimap.renderCharacters": true,
+    //////////////
+    // EXPLORER //
+    //////////////
+    "explorer.decorations.badges": false,
+    "explorer.confirmDelete": false,
+    "explorer.enableDragAndDrop": false,
+    "explorer.sortOrder": "modified",
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "extensions.showRecommendationsOnlyOnDemand": false,
+    /* Config Syncer */
+    "sync.autoUpload": false,
+    "sync.gist": "747eef9b0308651fe3dd868754fc128d",
+    "sync.quietSync": false,
+    "sync.removeExtensions": true,
+    //
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.startOnNewLine": true,
+    "breadcrumbs.enabled": true,
+    "debug.inlineValues": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": true,
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.js": "prettier",
+    // Number of spaces per indentation level. Inherited by all formatters.
+    "vetur.format.options.tabSize": 4,
+    "prettier.semi": true,
+    "prettier.tabWidth": 4,
+    "vetur.format.false": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.nodePath": "/usr/lib/node_modules/",
+    "prettier.jsxBracketSameLine": false,
+    "prettier.bracketSpacing": true,
+    "prettier.quoteProps": "consistent",
+    "prettier.htmlWhitespaceSensitivity": "strict",
+    "faker.locale": "pt_BR",
+    "files.autoGuessEncoding": false,
+    "files.autoSave": "off",
+    "files.encoding": "utf8",
+    "files.hotExit": "onExit",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "gitlens.codeLens.recentChange.command": "gitlens.showQuickCommitDetails",
+    "gitlens.keymap": "none",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.search.enabled": true,
+    "gitlens.views.search.files.layout": "list",
+    "path-autocomplete.triggerOutsideStrings": true,
+    "local-history.path": "/home/esauvisky/.config/Code - OSS/LocalHistory/",
+    "projectManager.filterOnFullPath": true,
+    "projectManager.groupList": true,
+    "projectManager.sortList": "Saved",
+    "projectManager.git.maxDepthRecursion": 1,
+    "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+    "projectManager.git.baseFolders": [
+        "/home/esauvisky/Bravi/",
+        "/home/esauvisky/Coding/",
+        "/home/esauvisky/Coding/Pokemod",
+    ],
+    "projectManager.git.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test",
+        ".old"
+    ],
+    "search.collapseResults": "auto",
+    "search.showLineNumbers": true,
+    "search.smartCase": true,
+    "sonarlint.disableTelemetry": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.external.linuxExec": "gnome-terminal",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.scrollback": 999999,
+    "typescript.disableAutomaticTypeAcquisition": false,
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "editor.mouseWheelScrollSensitivity": 1.5,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.limit.perEditorGroup": true,
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+    "window.openFilesInNewWindow": "off",
+    "window.restoreWindows": "one",
+    "window.restoreFullscreen": true,
+    "window.newWindowDimensions": "maximized",
+    "window.openWithoutArgumentsInNewWindow": "off",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.labelFormat": "default",
+    "workbench.editor.openPositioning": "right",
+    "workbench.editor.showTabs": true,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.editor.focusRecentEditorAfterClose": true,
+    "workbench.editor.tabSizing": "fit",
+    "workbench.view.alwaysShowHeaderActions": true,
+    "xmlTools.splitAttributesOnFormat": true,
+    "zenMode.fullScreen": false,
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "zenMode.hideTabs": false,
+    "sonarlint.rules": {
+        "php:S1192": {
+            "level": "off"
+        },
+        "php:S1757": {
+            "level": "on"
+        },
+        "python:S3776": {
+            "level": "off"
+        },
+        "Web:BoldAndItalicTagsCheck": {
+            "level": "off"
+        },
+        "Web:AvoidCommentedOutCodeCheck": {
+            "level": "off"
+        },
+        "php:S125": {
+            "level": "off"
+        },
+        "Web:S5148": {
+            "level": "off"
+        },
+        "php:S3973": {
+            "level": "off"
+        },
+        "php:S1142": {
+            "level": "off"
+        },
+        "php:S3776": {
+            "level": "off"
+        },
+        "javascript:S2703": {
+            "level": "off"
+        }
+    },
+    "python.linting.flake8Args": [
+        "--ignore=E402,E266,E302,E305,E501,F841,F401,W503,W504",
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length=100",
+        "--experimental",
+        "--hang-closing",
+        "-aaaaa"
+    ],
+    "python.autoComplete.addBrackets": true,
+    "python.globalModuleInstallation": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.autoIndent": "full",
+        "editor.suggest.statusBar.visible": true,
+        "editor.wordBasedSuggestions": false
+    },
+    "python.insidersChannel": "off",
+    "python.formatting.provider": "yapf",
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501,W605,W503"
+    ],
+    "python.jediMemoryLimit": -1,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.pythonPath": ".venv/bin/python",
+    "python.linting.pylintArgs": [
+        // Disables specific common useless pylint error messages
+        //? See http://pylint-messages.wikidot.com/all-codes to find
+        //? the code for the error message
+        "--disable=C0301,C0411,C0103,C0111,C0330,W0703,W605,E501",
+        "--extension-pkg-whitelist=cv2"
+    ],
+    "bracket-pair-colorizer-2.scopeLineCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.4"
+    ],
+    // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
+    "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
+    // Scope colors
+    "bracket-pair-colorizer-2.colors": [
+        "Orchid",
+        "#Mandalorian Blue",
+        "LightSkyBlue",
+    ],
+    // Show active bracket scope in gutter?
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    // Show active bracket scope in ruler?
+    "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Go Cyan",
+            "value": "#5dc9e2"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        },
+        {
+            "name": "Python",
+            "value": "#FACE5A"
+        }
+    ],
+    "peacock.affectAccentBorders": true,
+    "peacock.affectTabActiveBorder": true,
+    "peacock.elementAdjustments": {
+        "activityBar": "lighten",
+        "statusBar": "none",
+        "titleBar": "lighten"
+    },
+    "workbench.settings.enableNaturalLanguageSearch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "vsicons.dontShowNewVersionMessage": true,
+    "path-intellisense.extensionOnImport": true,
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "editor.detectIndentation": true,
+    "editor.folding": false,
+    "editor.parameterHints.cycle": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "gitlens.advanced.telemetry.enabled": false,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#002B36",
+        "terminal.foreground": "#93A1A1",
+        "terminalCursor.background": "#93A1A1",
+        "terminalCursor.foreground": "#93A1A1",
+        "terminal.ansiBlack": "#002B36",
+        "terminal.ansiBlue": "#268BD2",
+        "terminal.ansiBrightBlack": "#657B83",
+        "terminal.ansiBrightBlue": "#268BD2",
+        "terminal.ansiBrightCyan": "#2AA198",
+        "terminal.ansiBrightGreen": "#859900",
+        "terminal.ansiBrightMagenta": "#6C71C4",
+        "terminal.ansiBrightRed": "#DC322F",
+        "terminal.ansiBrightWhite": "#FDF6E3",
+        "terminal.ansiBrightYellow": "#B58900",
+        "terminal.ansiCyan": "#2AA198",
+        "terminal.ansiGreen": "#859900",
+        "terminal.ansiMagenta": "#6C71C4",
+        "terminal.ansiRed": "#DC322F",
+        "terminal.ansiWhite": "#93A1A1",
+        "terminal.ansiYellow": "#B58900",
+        "activityBarBadge.background": "#d8c769",
+        "list.activeSelectionForeground": "#d8c769",
+        "list.inactiveSelectionForeground": "#d8c769",
+        "list.highlightForeground": "#d8c769",
+        "scrollbarSlider.activeBackground": "#d8c76950",
+        "editorSuggestWidget.highlightForeground": "#d8c769",
+        "textLink.foreground": "#d8c769",
+        "progressBar.background": "#d8c769",
+        "pickerGroup.foreground": "#d8c769",
+        "tab.activeBorder": "#d8c769",
+        "notificationLink.foreground": "#d8c769",
+        "editorWidget.resizeBorder": "#d8c769",
+        "editorWidget.border": "#d8c769",
+        "settings.modifiedItemIndicator": "#d8c769",
+        "settings.headerForeground": "#d8c769",
+        "panelTitle.activeBorder": "#d8c769",
+        "breadcrumb.activeSelectionForeground": "#d8c769",
+        "menu.selectionForeground": "#d8c769",
+        "menubar.selectionForeground": "#d8c769",
+        "editor.findMatchBorder": "#d8c769",
+        "selection.background": "#d8c76940"
+    },
+    "customizeUI.listRowHeight": 28,
+    "customizeUI.stylesheet": {
+        ".monaco-icon-label:before": "align-self: center; background-size: 20px; padding-right: 10px;",
+    },
+    "local-history.absolute": true,
+    "local-history.daysLimit": 7,
+    "intelephense.trace.server": "off",
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.telemetry.enabled": false,
+    "intelephense.format.braces": "k&r",
+    "intelephense.completion.maxItems": 50,
+    "intelephense.diagnostics.enable": true,
+    "intelephense.diagnostics.run": "onSave",
+    "workbench.statusBar.visible": true,
+    "gitlens.views.repositories.branches.layout": "list",
+    "gitlens.sortBranchesBy": "date:desc",
+    "gitlens.sortTagsBy": "date:desc",
+    "gitlens.views.repositories.files.layout": "list",
+    "gitlens.views.repositories.files.compact": false,
+    "gitlens.views.search.location": "scm",
+    "editor.renderWhitespace": "none",
+    "rewrap.wrappingColumn": 100,
+    "autoDocstring.includeName": true,
+    "banner-comments-plus.trimEmptyLines": true,
+    "banner-comments-plus.trimTrailingWhitespace": true,
+    "bookmarks.saveBookmarksInProject": true,
+    "bookmarks.showCommandsInContextMenu": false,
+    "bookmarks.navigateThroughAllFiles": true,
+    "bookmarks.useWorkaroundForFormatters": true,
+    "git.enableCommitSigning": true,
+    "git-graph.combineLocalAndRemoteBranchLabels": false,
+    "git-graph.showSignatureStatus": true,
+    "git-graph.showUncommittedChanges": false,
+    "gitlens.blame.separateLines": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "gitlens.gitCommands.search.matchRegex": false,
+    "gitlens.gitCommands.search.showResultsInView": false,
+    "gitlens.showWhatsNewAfterUpgrades": false,
+    "html.format.endWithNewline": true,
+    "python.analysis.cachingLevel": "Library",
+    "python.analysis.cacheFolderPath": "/tmp/",
+    "python.analysis.memory.keepLibraryAst": true,
+    "python.analysis.memory.keepLibraryLocalVariables": true,
+    "python.dataScience.allowImportFromNotebook": false,
+    "python.dataScience.allowLiveShare": false,
+    "python.dataScience.addGotoCodeLenses": false,
+    "python.dataScience.askForLargeDataFrames": false,
+    "python.dataScience.askForKernelRestart": false,
+    "python.dataScience.disableJupyterAutoStart": true,
+    "python.dataScience.enabled": false,
+    "python.dataScience.searchForJupyter": false,
+    "python.envFile": "${workspaceFolder}/.venv",
+    "python.languageServer": "Microsoft",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.workspaceSymbols.enabled": true,
+    /*
+    //  _   _                             ______     _      _
+    // | | | |                            |  _  \   | |    | |
+    // | |_| |_   _ _ __   __ _ _ __ _   _| | | |___| | ___| |_ ___
+    // |  _  | | | | '_ \ / _` | '__| | | | | | / _ \ |/ _ \ __/ _ \
+    // | | | | |_| | | | | (_| | |  | |_| | |/ /  __/ |  __/ ||  __/
+    // \_| |_/\__,_|_| |_|\__, |_|   \__, |___/ \___|_|\___|\__\___|
+    //                     __/ |      __/ |
+    //                    |___/      |___/
+    */
+    "hungryDelete.languageConfigurations": [
+        {
+            "languageId": "html",
+            "indentationRules": {
+                "increaseIndentPattern": "<(?!\\?|(?:area|base|br|col|frame|hr|html|img|input|link|meta|param)\\b|[^>]*\\/>)([-_\\.A-Za-z0-9]+)(?=\\s|>)\\b[^>]*>(?!.*<\\/\\1>)|<!--(?!.*-->)|\\{[^}\"']*$",
+                "decreaseIndentPattern": "^\\s*(<\\/(?!html)[-_\\.A-Za-z0-9]+\\b[^>]*>|-->|\\})"
+            }
+        },
+        {
+            "languageId": "go",
+            "indentationRules": {
+                "increaseIndentPattern": "^.*(\\bcase\\b.*:|\\bdefault\\b:|(\\b(func|if|else|switch|select|for|struct)\\b.*)?{[^}\"'`]*|\\([^)\"'`]*)$",
+                "decreaseIndentPattern": "^\\s*(\\bcase\\b.*:|\\bdefault\\b:|}[)}]*[),]?|\\)[,]?)$"
+            }
+        },
+        {
+            "languageId": "json",
+            "indentationRules": {
+                "increaseIndentPattern": "^.*(\\{[^}]*|\\[[^\\]]*)$",
+                "decreaseIndentPattern": "^\\s*[}\\]],?\\s*$"
+            }
+        },
+        {
+            "languageId": "less",
+            "indentationRules": {
+                "increaseIndentPattern": "(^.*\\{[^}]*$)",
+                "decreaseIndentPattern": "^\\s*\\}"
+            }
+        },
+        {
+            "languageId": "lua",
+            "indentationRules": {
+                "increaseIndentPattern": "^((?!(\\-\\-)).)*((\\b(else|function|then|do|repeat)\\b((?!\\b(end|until)\\b).)*)|(\\{\\s*))$",
+                "decreaseIndentPattern": "^\\s*((\\b(elseif|else|end|until)\\b)|(\\})|(\\)))"
+            }
+        },
+        {
+            "languageId": "php",
+            "indentationRules": {
+                "increaseIndentPattern": "({(?!.+}).*|\\(|\\[|((else(\\s)?)?if|else|for(each)?|while|switch).*:)\\s*(/[/*].*)?$",
+                "decreaseIndentPattern": "^(.*\\*\\/)?\\s*((\\})|(\\)+[;,])|(\\][;,])|\\b(else:)|\\b((end(if|for(each)?|while|switch));))"
+            }
+        },
+        {
+            "languageId": "ruby",
+            "indentationRules": {
+                "increaseIndentPattern": "^\\s*((begin|class|(private|protected)\\s+def|def|else|elsif|ensure|for|if|module|rescue|unless|until|when|while|case)|([^#]*\\sdo\\b)|([^#]*=\\s*(case|if|unless)))\\b([^#\\{;]|(\"|'|/).*\\4)*(#.*)?$",
+                "decreaseIndentPattern": "^\\s*([}\\]]([,)]?\\s*(#|$)|\\.[a-zA-Z_]\\w*\\b)|(end|rescue|ensure|else|elsif|when)\\b)"
+            }
+        },
+        {
+            "languageId": "typescript",
+            "indentationRules": {
+                "increaseIndentPattern": "^((?!.*?\\/\\*).*\\*\\/)?\\s*[\\}\\]].*$",
+                "decreaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*)$"
+            }
+        },
+        {
+            "languageId": "yaml",
+            "indentationRules": {
+                "increaseIndentPattern": "^\\s*.*(:|-) ?(&amp;\\w+)?(\\{[^}\"']*|\\([^)\"']*)?$",
+                "decreaseIndentPattern": "^\\s+\\}$"
+            }
+        }
+    ],
+    "hungryDelete.keepOneSpace": true,
+    "hungryDelete.followAbovelineIndent": true,
+    "hungryDelete.considerIncreaseIndentPattern": true,
+    "hungryDelete.keepOneSpaceException": ">;",
+    "hungryDelete.enableSmartBackspace": true,
+    /*
+    //  ____  _                   _
+    // |    \|_|___ ___ ___ ___ _| |
+    // |  |  | |_ -|  _| . |  _| . |
+    // |____/|_|___|___|___|_| |___|
+    */
+    "discord.detailsIdle": "Having a",
+    "discord.lowerDetailsIdle": "   🚬 and a ☕",
+    "discord.largeImageIdle": "Writing some code",
+    "discord.detailsEditing": "Working at:",
+    "discord.detailsDebugging": "Debugging:",
+    "discord.largeImage": "Writing {lang} code",
+    "discord.lowerDetailsDebugging": "   {workspace}",
+    "discord.lowerDetailsEditing": "   {workspace}",
+    "discord.lowerDetailsNotFound": "{currentline} of {totallines}",
+    "discord.smallImage": "Pokémod ❤️",
+    "discord.workspaceExcludePatterns": [
+        "frida",
+        "spongyelephant"
+    ],
+    "discord.silent": false,
+    "discord.workspaceElapsedTime": true,
+    "eslint.codeActionsOnSave.mode": "problems",
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": false,
+    "rewrap.reformat": true,
+    "rewrap.doubleSentenceSpacing": true,
+    "banner-comments-plus.favorites": [
+        "Calvin S",
+        "Rectangles",
+        "Doom",
+        "Contessa",
+        "Mini"
+    ],
+    "banner-comments-plus.font": "Calvin S",
+    "banner-comments-plus.commentStyle": "block",
+    "python.jediEnabled": false,
+    "terminal.integrated.allowChords": false,
+    "rainbow_csv.csv_lint_detect_trailing_spaces": true,
+    "git-graph.loadMoreCommitsAutomatically": false,
+    "debug.onTaskErrors": "debugAnyway",
+    "sync.autoDownload": true
+}
