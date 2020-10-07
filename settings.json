@@ -287,6 +287,17 @@
         "borderColor : {color}; opacity: 1"
     ],
     "bracketPairColorizer.timeOut": 200,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "Gold",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
