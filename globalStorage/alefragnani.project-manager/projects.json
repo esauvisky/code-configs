@@ -1,0 +1,16 @@
+[
+	{
+		"name": "arch-install",
+		"rootPath": "/home/emi/Coding/Projects/arch-install",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Pokemod Modules",
+		"rootPath": "/home/emi/Coding/Pokemod/modules",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]
