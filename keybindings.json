@@ -313,7 +313,6 @@
     {
         "key": "ctrl+t",
         "command": "workbench.action.files.newUntitledFile",
-        "args": {"viewType": "!terminalFocus"}
     },
     {
         "key": "ctrl+n",
