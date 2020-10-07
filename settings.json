@@ -596,5 +596,6 @@
     "rainbow_csv.csv_lint_detect_trailing_spaces": true,
     "git-graph.loadMoreCommitsAutomatically": false,
     "debug.onTaskErrors": "debugAnyway",
-    "sync.autoDownload": true
+    "sync.autoDownload": true,
+    "terminal.integrated.shell.linux": "/bin/bash"
 }
