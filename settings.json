@@ -279,10 +279,10 @@
     "bracketPairColorizer.showBracketsInGutter": true,
     // Show active bracket scope in ruler?
     "bracketPairColorizer.showBracketsInRuler": true,
-    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": false,
     "bracketPairColorizer.activeScopeCSS": [
         "borderStyle : solid",
-        "borderWidth : 1px",
+        "borderWidth : 4px",
         "borderColor : {color}; opacity: 0.5"
     ],
     "peacock.favoriteColors": [
