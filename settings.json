@@ -280,17 +280,8 @@
     "bracketPairColorizer.showBracketsInGutter": true,
     // Show active bracket scope in ruler?
     "bracketPairColorizer.showBracketsInRuler": true,
-    "bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-            "Orchid",
-            "#Mandalorian Blue",
-            "LightSkyBlue",
-        ],
-        "Red"
-    ],
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.highlightActiveScope": true,
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
