@@ -269,8 +269,7 @@
     "bracketPairColorizer.scopeLineCSS": [
         "borderStyle : solid",
         "borderWidth : 1px",
-        "borderColor : {color}",
-        "border-opacity: 1"
+        "borderColor : {color}"
     ],
     // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
     "bracketPairColorizer.scopeLineRelativePosition": true,
