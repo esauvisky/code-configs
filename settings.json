@@ -283,8 +283,8 @@
     "bracketPairColorizer.highlightActiveScope": true,
     "bracketPairColorizer.activeScopeCSS": [
         "borderStyle : solid",
-        "borderWidth : 5px",
-        "borderColor : {color}; opacity: 0.5"
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 1"
     ],
     "peacock.favoriteColors": [
         {
