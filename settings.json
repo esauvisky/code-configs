@@ -163,7 +163,7 @@
     "terminal.external.linuxExec": "gnome-terminal",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.rendererType": "",
     "terminal.integrated.scrollback": 999999,
     "typescript.disableAutomaticTypeAcquisition": false,
     "vsintellicode.modify.editor.suggestSelection": "enabled",
@@ -266,24 +266,31 @@
         "--disable=C0301,C0411,C0103,C0111,C0330,W0703,W605,E501",
         "--extension-pkg-whitelist=cv2"
     ],
-    "bracket-pair-colorizer-2.scopeLineCSS": [
+    "bracketPairColorizer.scopeLineCSS": [
         "borderStyle : solid",
         "borderWidth : 1px",
         "borderColor : {color}",
         "opacity: 0.4"
     ],
     // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
-    "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
+    "bracketPairColorizer.scopeLineRelativePosition": true,
     // Scope colors
-    "bracket-pair-colorizer-2.colors": [
-        "Orchid",
-        "#Mandalorian Blue",
-        "LightSkyBlue",
-    ],
+    "bracketPairColorizer.colorMode": "Independent",
     // Show active bracket scope in gutter?
-    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
     // Show active bracket scope in ruler?
-    "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "Orchid",
+            "#Mandalorian Blue",
+            "LightSkyBlue",
+        ],
+        "Red"
+    ],
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
