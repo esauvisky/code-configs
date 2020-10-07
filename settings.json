@@ -268,9 +268,9 @@
     ],
     "bracketPairColorizer.scopeLineCSS": [
         "borderStyle : solid",
-        "borderWidth : 1px",
+        "borderWidth : 4px",
         "borderColor : {color}",
-        "opacity: 0.8"
+        "opacity: 0.4"
     ],
     // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
     "bracketPairColorizer.scopeLineRelativePosition": true,
@@ -282,8 +282,8 @@
     "bracketPairColorizer.showBracketsInRuler": true,
     "bracketPairColorizer.forceUniqueOpeningColor": true,
     "bracketPairColorizer.activeScopeCSS": [
-        "borderStyle : solid",
-        "borderWidth : 1px",
+        "borderStyle : dashed",
+        "borderWidth : 4px",
         "borderColor : {color}",
         "opacity: 0.4"
     ],
