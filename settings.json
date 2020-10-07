@@ -163,7 +163,7 @@
     "terminal.external.linuxExec": "gnome-terminal",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.rendererType": "",
+    "terminal.integrated.rendererType": "experimentalWebgl",
     "terminal.integrated.scrollback": 999999,
     "typescript.disableAutomaticTypeAcquisition": false,
     "vsintellicode.modify.editor.suggestSelection": "enabled",
