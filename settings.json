@@ -292,10 +292,11 @@
         "[]",
         "{}",
         [
-            "Gold",
-            "Orchid",
-            "LightSkyBlue"
-        ],
+
+        "Orchid",
+        "#Mandalorian Blue",
+        "LightSkyBlue",
+       ],
         "Red"
     ],
     "peacock.favoriteColors": [
