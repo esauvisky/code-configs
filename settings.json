@@ -269,22 +269,21 @@
     "bracketPairColorizer.scopeLineCSS": [
         "borderStyle : solid",
         "borderWidth : 1px",
-        "borderColor : {color}"
+        "borderColor : {color}; opacity: 0.5"
     ],
     // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
     "bracketPairColorizer.scopeLineRelativePosition": true,
     // Scope colors
-    "bracketPairColorizer.colorMode": "Independent",
+    "bracketPairColorizer.colorMode": "Consecutive",
     // Show active bracket scope in gutter?
     "bracketPairColorizer.showBracketsInGutter": true,
     // Show active bracket scope in ruler?
     "bracketPairColorizer.showBracketsInRuler": true,
     "bracketPairColorizer.forceUniqueOpeningColor": true,
     "bracketPairColorizer.activeScopeCSS": [
-        "borderStyle : dashed",
-        "borderWidth : 4px",
-        "borderColor : {color}",
-        "opacity: 0.4"
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
     ],
     "peacock.favoriteColors": [
         {
