@@ -270,7 +270,7 @@
         "borderStyle : solid",
         "borderWidth : 1px",
         "borderColor : {color}",
-        "opacity: 0.4"
+        "opacity: 0.8"
     ],
     // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
     "bracketPairColorizer.scopeLineRelativePosition": true,
@@ -281,7 +281,12 @@
     // Show active bracket scope in ruler?
     "bracketPairColorizer.showBracketsInRuler": true,
     "bracketPairColorizer.forceUniqueOpeningColor": true,
-    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.4"
+    ],
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
