@@ -578,6 +578,7 @@
         "enable": true
     },
     "eslint.format.enable": true,
+    "eslint.enable": true,
     "eslint.lintTask.enable": true,
     "rewrap.reformat": true,
     "rewrap.doubleSentenceSpacing": true,
