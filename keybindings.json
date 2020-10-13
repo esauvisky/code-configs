@@ -935,6 +935,6 @@
     {
         "key": "ctrl+shift+r",
         "command": "search.action.revealInSideBar",
-        "when": "!isSearch"
+        "when": "inSearchEditor"
     }
 ]
