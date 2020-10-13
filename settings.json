@@ -604,5 +604,10 @@
     "git-graph.loadMoreCommitsAutomatically": false,
     "debug.onTaskErrors": "debugAnyway",
     "sync.autoDownload": true,
-    "terminal.integrated.shell.linux": "/bin/bash"
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "shellcheck.enableQuickFix": true,
+    "shellcheck.exclude": [
+        "1090",
+        "907"
+    ]
 }
