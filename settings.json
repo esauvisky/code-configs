@@ -608,6 +608,7 @@
     "shellcheck.enableQuickFix": true,
     "shellcheck.exclude": [
         "1090",
-        "907"
+        "907",
+        "1091"
     ]
 }
