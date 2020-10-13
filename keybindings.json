@@ -931,5 +931,10 @@
     {
         "key": "ctrl+k r",
         "command": "-workbench.action.files.revealActiveFileInWindows"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "search.action.revealInSideBar",
+        "when": "!isSearch"
     }
 ]
