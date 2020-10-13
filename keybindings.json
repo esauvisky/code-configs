@@ -931,9 +931,5 @@
     {
         "key": "ctrl+k r",
         "command": "-workbench.action.files.revealActiveFileInWindows"
-    },
-    {
-        "key": "ctrl+alt+r",
-        "command": "git.revealInExplorer"
     }
 ]
