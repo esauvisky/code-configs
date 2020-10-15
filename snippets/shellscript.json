@@ -13,7 +13,7 @@
     // 	"description": "Log output to console"
     // }
     "While Read Loop": {
-        "prefix": "whileread",
+        "prefix": "while read",
         "body": [
             "while read ${1:line}; do",
             "    ${0:echo \"Word count per line: $line\"}",
