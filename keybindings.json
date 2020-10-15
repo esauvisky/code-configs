@@ -987,7 +987,7 @@
         "when": "inQuickOpen && inRecentFilesPicker"
     },
     {
-        "key": "ctrl+escape",
+        "key": "escape",
         "command": "workbench.action.closeSidebar"
     }
 ]
