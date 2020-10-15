@@ -259,7 +259,8 @@
         "--ignore=E501,W605,W503"
     ],
     "powermode.enabled": true,
-    "powermode.explosionSize": 30,
+    "powermode.explosionSize": 20,
+    "powermode.presets": "flames",
     "python.jediMemoryLimit": -1,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
