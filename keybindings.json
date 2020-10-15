@@ -952,5 +952,20 @@
         "key": "shift+f4",
         "command": "-search.action.focusPreviousSearchResult",
         "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "f4",
+        "command": "-references-view.next",
+        "when": "reference-list.hasResult"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-references-view.prev",
+        "when": "reference-list.hasResult"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-goToPreviousReference",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
     }
 ]
