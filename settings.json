@@ -259,8 +259,9 @@
         "--ignore=E501,W605,W503"
     ],
     "powermode.enabled": true,
-    "powermode.explosionSize": 20,
+    "powermode.explosionSize": 10,
     "powermode.presets": "fireworks",
+    "powermode.explosionFrequency": 5,
     "python.jediMemoryLimit": -1,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
