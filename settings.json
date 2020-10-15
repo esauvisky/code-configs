@@ -263,9 +263,10 @@
     "powermode.presets": "fireworks",
     "powermode.explosionOffset": 0.52,
     "powermode.gifMode": "restart",
+    "powermode.explosionDuration": 2000,
     "powermode.enableShake": false,
     "powermode.enableExplosions": true,
-    "powermode.maxExplosions": 1,
+    "powermode.maxExplosions": 10,
 
     "python.jediMemoryLimit": -1,
     "python.linting.pylintEnabled": true,
