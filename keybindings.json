@@ -970,10 +970,6 @@
     },
     {
         "key": "ctrl+r",
-        "command": "git.revealInExplorer"
-    },
-    {
-        "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
     },
     {
