@@ -985,5 +985,9 @@
         "key": "ctrl+r",
         "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
         "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+escape",
+        "command": "workbench.action.closeSidebar"
     }
 ]
