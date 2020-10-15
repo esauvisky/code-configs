@@ -919,6 +919,11 @@
         "when": "isInDiffEditor"
     },
     {
+        "key": "ctrl+shift+g f",
+        "command": "git.revertSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
         "key": "ctrl+k ctrl+r",
         "command": "-git.revertSelectedRanges",
         "when": "isInDiffEditor"
