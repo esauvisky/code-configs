@@ -251,18 +251,6 @@
         "when": "textCompareEditorVisible"
     },
     {
-        "key": "alt+escape s",
-        "command": "git.stageSelectedRanges",
-    },
-    {
-        "key": "alt+escape u",
-        "command": "git.unstageSelectedRanges",
-    },
-    {
-        "key": "alt+escape c",
-        "command": "git.commit",
-    },
-    {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
     },
@@ -817,16 +805,6 @@
     {
         "key": "ctrl+k ctrl+s",
         "command": "-workbench.action.openGlobalKeybindings"
-    },
-    {
-        "key": "ctrl+k ctrl+alt+s",
-        "command": "-git.stageSelectedRanges",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "ctrl+k ctrl+u",
-        "command": "-git.unstageSelectedRanges",
-        "when": "isInDiffEditor"
     },
     {
         "key": "alt+left",
