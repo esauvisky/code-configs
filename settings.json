@@ -258,16 +258,16 @@
     "python.linting.pycodestyleArgs": [
         "--ignore=E501,W605,W503"
     ],
-    "powermode.enabled": false,
+    "powermode.enabled": true,
     "powermode.explosionSize": 15,
     "powermode.presets": "fireworks",
-    "powermode.explosionOffset": 0.5,
+    "powermode.explosionOffset": 0.538,
     "powermode.gifMode": "restart",
     "powermode.explosionDuration": 2550,
     "powermode.explosionOrder": 1,
     "powermode.explosionFrequency": 10,
     "powermode.enableShake": false,
-    "powermode.enableExplosions": false,
+    "powermode.enableExplosions": true,
     "powermode.maxExplosions": 10,
 
     "python.jediMemoryLimit": -1,
