@@ -261,7 +261,7 @@
     "powermode.enabled": true,
     "powermode.explosionSize": 10,
     "powermode.presets": "fireworks",
-    "powermode.explosionFrequency": 5,
+    "powermode.explosionOffset":0.5,
     "python.jediMemoryLimit": -1,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
