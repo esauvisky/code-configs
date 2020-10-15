@@ -263,13 +263,6 @@
         "command": "git.commit",
     },
     {
-        "key": "alt+escape r",
-        "command": "git.revertSelectedRanges",
-    },
-    //! /////////////////////////////////
-    //! FROM NOW ON NEEDS MANUAL CHECK //
-    //! /////////////////////////////////
-    {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
     },
@@ -936,5 +929,9 @@
         "key": "ctrl+shift+r",
         "command": "search.action.revealInSideBar",
         "when": "inSearchEditor"
+    },
+    {
+        "key": "ctrl+g ctrl+r",
+        "command": "git.revertChange"
     }
 ]
