@@ -34,7 +34,7 @@
         "prefix": "y/n",
         "body": [
             "read -p '[y/N] ' -r",
-            "if [[ $$$REPLY =~ ^[Yy]$ ]]; then",
+            "if [[ {$$}REPLY =~ ^[Yy]$ ]]; then",
             "    ${0:#stuff}",
             "fi"
         ],
