@@ -133,7 +133,7 @@
     {
         "key": "f4",
         "command": "editor.action.toggleWordWrap",
-        "when": "editorTextFocus && !isInDiffEditor"
+        "when": "editorTextFocus"
     },
     // Move line up and down behaviour:
     {
