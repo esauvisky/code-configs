@@ -30,4 +30,16 @@
         ],
         "description": "If Basic Block"
     },
+    "Confirmation Prompt": {
+        "prefix": "y/n",
+        "body": [
+            "read -p \"[y/N] \" -r",
+            "if [[ $REPLY =~ ^[Yy]$ ]]; then",
+            "    # do dangerous stuff",
+            "    true",
+            "fi"
+        ],
+        "description": "A robust [y/N] confirmation prompt."
+    },
+
 }
