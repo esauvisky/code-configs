@@ -264,6 +264,7 @@
     "powermode.explosionOffset": 0.52,
     "powermode.gifMode": "restart",
     "powermode.explosionDuration": 2000,
+    "powermode.explosionFrequency": 30,
     "powermode.enableShake": false,
     "powermode.enableExplosions": true,
     "powermode.maxExplosions": 10,
