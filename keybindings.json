@@ -907,5 +907,10 @@
         "key": "ctrl+shift+r",
         "command": "search.action.revealInSideBar",
         "when": "inSearchEditor"
+    },
+    {
+        "key": "f3",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
     }
 ]
