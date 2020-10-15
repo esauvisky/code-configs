@@ -929,9 +929,5 @@
         "key": "ctrl+shift+r",
         "command": "search.action.revealInSideBar",
         "when": "inSearchEditor"
-    },
-    {
-        "key": "ctrl+g ctrl+r",
-        "command": "git.revertChange"
     }
 ]
