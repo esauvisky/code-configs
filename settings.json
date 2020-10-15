@@ -259,11 +259,11 @@
         "--ignore=E501,W605,W503"
     ],
     "powermode.enabled": true,
-    "powermode.explosionSize": 15,asdasdsdasdddddddddddddddddddddddddddddddddddddddddddddddd ssssddddddddddd
+    "powermode.explosionSize": 15,
     "powermode.presets": "fireworks",
     "powermode.explosionOffset": 0.52,
     "powermode.gifMode": "continue",
-    "powermode.explosionDuration": 1400,
+    "powermode.explosionDuration": 1200,
     "powermode.explosionOrder": "random",
     "powermode.explosionFrequency": 10,
     "powermode.enableShake": false,
