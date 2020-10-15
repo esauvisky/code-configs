@@ -891,7 +891,7 @@
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+r",
+        "key": "ctrl+r",
         "command": "workbench.files.action.showActiveFileInExplorer"
     },
     {
@@ -904,7 +904,7 @@
         "command": "-workbench.action.files.revealActiveFileInWindows"
     },
     {
-        "key": "ctrl+shift+r",
+        "key": "ctrl+r",
         "command": "search.action.revealInSideBar",
         "when": "inSearchEditor"
     },
@@ -969,7 +969,7 @@
         "when": "inReferenceSearchEditor || referenceSearchVisible"
     },
     {
-        "key": "ctrl+d ctrl+r",
+        "key": "ctrl+r",
         "command": "git.revealInExplorer"
     }
 ]
