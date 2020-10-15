@@ -967,5 +967,9 @@
         "key": "shift+f4",
         "command": "-goToPreviousReference",
         "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "ctrl+d ctrl+r",
+        "command": "git.revealInExplorer"
     }
 ]
