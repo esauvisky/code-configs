@@ -261,10 +261,10 @@
     "powermode.enabled": true,
     "powermode.explosionSize": 15,
     "powermode.presets": "fireworks",
-    "powermode.explosionOffset": 0.52,
-    "powermode.gifMode": "continue",asdas
+    "powermode.explosionOffset": 0.55,
+    "powermode.gifMode": "restart",
     "powermode.explosionDuration": 2550,
-    "powermode.explosionOrder": 1,ssssssssssssssssssssssssssssss
+    "powermode.explosionOrder": 1,
     "powermode.explosionFrequency": 10,
     "powermode.enableShake": false,
     "powermode.enableExplosions": true,
