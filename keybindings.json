@@ -919,9 +919,9 @@
         "when": "isInDiffEditor"
     },
     {
-        "key": "ctrl+shift+g f",
+        "key": "ctrl+shift+g f5",
         "command": "git.revertSelectedRanges",
-        "when": "isInDiffEditor"
+        "when": "editorFocus"
     },
     {
         "key": "ctrl+k ctrl+r",
@@ -934,6 +934,11 @@
         "when": "isInDiffEditor"
     },
     {
+        "key": "ctrl+shift+g f3",
+        "command": "git.stageSelectedRanges",
+        "when": "editorFocus"
+    },
+    {
         "key": "ctrl+k ctrl+alt+s",
         "command": "-git.stageSelectedRanges",
         "when": "isInDiffEditor"
@@ -942,6 +947,11 @@
         "key": "f2",
         "command": "git.unstageSelectedRanges",
         "when": "isInDiffEditor"
+    },
+    {
+        "key": "ctrl+shift+g f2",
+        "command": "git.unstageSelectedRanges",
+        "when": "editorFocus"
     },
     {
         "key": "ctrl+k ctrl+n",
