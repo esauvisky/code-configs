@@ -33,10 +33,9 @@
     "Confirmation Prompt": {
         "prefix": "y/n",
         "body": [
-            "read -p \"[y/N] \" -r",
+            "read -p \"[y/N] \" -r ${1:message}",
             "if [[ $REPLY =~ ^[Yy]$ ]]; then",
-            "    # do dangerous stuff",
-            "    true",
+            "    ${0:#stuff}",
             "fi"
         ],
         "description": "A robust [y/N] confirmation prompt."
