@@ -33,7 +33,7 @@
     "Confirmation Prompt": {
         "prefix": "y/n",
         "body": [
-            "read -p \"[y/N] \" -r",
+            "read -p \"${1: }[y/N] \" -r",
             "if [[ \\$REPLY =~ ^[Yy]$ ]]; then",
             "    ${0:#stuff}",
             "fi"
