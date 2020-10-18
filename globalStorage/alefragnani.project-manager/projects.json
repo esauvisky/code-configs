@@ -8,14 +8,14 @@
 	},
 	{
 		"name": "Pokemod Modules",
-		"rootPath": "/home/emi/Coding/Pokemod/modules",
+		"rootPath": "/home/emi/Pokemod/modules",
 		"paths": [],
 		"group": "",
 		"enabled": true
 	},
 	{
 		"name": "Pokemod Dumps",
-		"rootPath": "/home/emi/Coding/Pokemod/pokemod-dumps",
+		"rootPath": "/home/emi/Pokemod/pokemod-dumps",
 		"paths": [],
 		"group": "",
 		"enabled": true
