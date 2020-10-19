@@ -234,6 +234,9 @@
         },
         "python:S2755": {
             "level": "off"
+        },
+        "javascript:S1128": {
+            "level": "off"
         }
     },
     "python.linting.flake8Args": [
