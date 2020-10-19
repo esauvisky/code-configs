@@ -19,5 +19,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "Pokemod API",
+		"rootPath": "/home/emi/Pokemod/api",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
