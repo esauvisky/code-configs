@@ -276,7 +276,7 @@
     "python.jediMemoryLimit": -1,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
-    "python.pythonPath": "/sbin/python",
+    "python.pythonPath": "/tmp/.venv/bin/python3.8",
     "python.linting.pylintArgs": [
         // Disables specific common useless pylint error messages
         //? See http://pylint-messages.wikidot.com/all-codes to find
