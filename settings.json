@@ -256,7 +256,7 @@
         "editor.suggest.statusBar.visible": true,
         "editor.wordBasedSuggestions": false
     },
-    "python.insidersChannel": "off",
+    "python.insidersChannel": "true",
     "python.formatting.provider": "yapf",
     "python.linting.pycodestyleArgs": [
         "--ignore=E501,W605,W503"
@@ -487,7 +487,7 @@
     "python.dataScience.enabled": false,
     "python.dataScience.searchForJupyter": false,
     "python.envFile": "${workspaceFolder}/.venv",
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Jedi",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.workspaceSymbols.enabled": true,
     /*
