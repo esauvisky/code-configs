@@ -256,7 +256,7 @@
         "editor.suggest.statusBar.visible": true,
         "editor.wordBasedSuggestions": false
     },
-    "python.insidersChannel": "true",
+    "python.insidersChannel": "off",
     "python.formatting.provider": "yapf",
     "python.linting.pycodestyleArgs": [
         "--ignore=E501,W605,W503"
