@@ -261,7 +261,7 @@
     "python.linting.pycodestyleArgs": [
         "--ignore=E501,W605,W503"
     ],
-    "powermode.enabled": true,
+    "powermode.enabled": false,
     "powermode.explosionSize": 15,
     "powermode.presets": "fireworks",
     "powermode.explosionOffset": 0.538,
