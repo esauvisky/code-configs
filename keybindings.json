@@ -236,7 +236,7 @@
     {
         "key": "ctrl+shift+c",
         "command": "workbench.action.toggleSidebarVisibility",
-        "when": "! (terminalFocus || terminalProcessSupported && terminalTextSelected)",
+        "when": "!terminalFocus",
     },
     //////////
     //? GIT //
