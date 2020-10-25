@@ -15,7 +15,7 @@
     "While Read Loop": {
         "prefix": "while read",
         "body": [
-            "while read ${1:line}; do",
+            "while read -r ${1:line}; do",
             "    ${0:echo \"Word count per line: $line\"}",
             "done < <(${2:cat list-of-dirs.txt | wc -w})",
         ],
