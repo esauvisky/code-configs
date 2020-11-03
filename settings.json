@@ -163,7 +163,7 @@
     "terminal.external.linuxExec": "gnome-terminal",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.rendererType": "experimentalWebgl",
     "terminal.integrated.scrollback": 999999,
     "typescript.disableAutomaticTypeAcquisition": false,
     "vsintellicode.modify.editor.suggestSelection": "enabled",
@@ -202,6 +202,9 @@
         "php:S1192": {
             "level": "off"
         },
+        "python:S1192": {
+            "level": "off"
+        },
         "php:S1757": {
             "level": "on"
         },
@@ -231,6 +234,12 @@
         },
         "javascript:S2703": {
             "level": "off"
+        },
+        "python:S2755": {
+            "level": "off"
+        },
+        "javascript:S1128": {
+            "level": "off"
         }
     },
     "python.linting.flake8Args": [
@@ -255,10 +264,22 @@
     "python.linting.pycodestyleArgs": [
         "--ignore=E501,W605,W503"
     ],
+    "powermode.enabled": false,
+    "powermode.explosionSize": 15,
+    "powermode.presets": "fireworks",
+    "powermode.explosionOffset": 0.538,
+    "powermode.gifMode": "restart",
+    "powermode.explosionDuration": 2550,
+    "powermode.explosionOrder": 1,
+    "powermode.explosionFrequency": 10,
+    "powermode.enableShake": false,
+    "powermode.enableExplosions": true,
+    "powermode.maxExplosions": 10,
+
     "python.jediMemoryLimit": -1,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
-    "python.pythonPath": ".venv/bin/python",
+    "python.pythonPath": "/tmp/.venv/bin/python3.8",
     "python.linting.pylintArgs": [
         // Disables specific common useless pylint error messages
         //? See http://pylint-messages.wikidot.com/all-codes to find
@@ -266,24 +287,38 @@
         "--disable=C0301,C0411,C0103,C0111,C0330,W0703,W605,E501",
         "--extension-pkg-whitelist=cv2"
     ],
-    "bracket-pair-colorizer-2.scopeLineCSS": [
+    "bracketPairColorizer.scopeLineCSS": [
         "borderStyle : solid",
         "borderWidth : 1px",
-        "borderColor : {color}",
-        "opacity: 0.4"
+        "borderColor : {color}; opacity: 0.5"
     ],
     // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
-    "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
+    "bracketPairColorizer.scopeLineRelativePosition": true,
     // Scope colors
-    "bracket-pair-colorizer-2.colors": [
-        "Orchid",
-        "#Mandalorian Blue",
-        "LightSkyBlue",
-    ],
+    "bracketPairColorizer.colorMode": "Consecutive",
     // Show active bracket scope in gutter?
-    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracketPairColorizer.showBracketsInGutter": true,
     // Show active bracket scope in ruler?
-    "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "bracketPairColorizer.showBracketsInRuler": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": false,
+    "bracketPairColorizer.highlightActiveScope": true,
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 1"
+    ],
+    "bracketPairColorizer.timeOut": 200,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "Orchid",
+            "#Mandalorian Blue",
+            "LightSkyBlue",
+        ],
+        "Red"
+    ],
     "peacock.favoriteColors": [
         {
             "name": "Angular Red",
@@ -432,9 +467,10 @@
     "bookmarks.navigateThroughAllFiles": true,
     "bookmarks.useWorkaroundForFormatters": true,
     "git.enableCommitSigning": true,
-    "git-graph.combineLocalAndRemoteBranchLabels": false,
-    "git-graph.showSignatureStatus": true,
-    "git-graph.showUncommittedChanges": false,
+    "git-graph.referenceLabels.combineLocalAndRemoteBranchLabels": false,
+    "git-graph.repository.commits.showSignatureStatus": true,
+    "git-graph.repository.commits.loadMoreCommitsAutomatically": false,
+    "git-graph.repository.showUncommittedChanges": false,
     "gitlens.blame.separateLines": false,
     "gitlens.codeLens.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
@@ -455,7 +491,7 @@
     "python.dataScience.enabled": false,
     "python.dataScience.searchForJupyter": false,
     "python.envFile": "${workspaceFolder}/.venv",
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Jedi",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.workspaceSymbols.enabled": true,
     /*
@@ -560,12 +596,16 @@
     ],
     "discord.silent": false,
     "discord.workspaceElapsedTime": true,
-    "eslint.codeActionsOnSave.mode": "problems",
     "eslint.codeAction.showDocumentation": {
         "enable": true
     },
     "eslint.format.enable": true,
-    "eslint.lintTask.enable": false,
+    "eslint.debug": true,
+    "eslint.lintTask.enable": true,
+    // "eslint.trace.server": "verbose",
+    "eslint.workingDirectories": [
+        "./src"
+    ],
     "rewrap.reformat": true,
     "rewrap.doubleSentenceSpacing": true,
     "banner-comments-plus.favorites": [
@@ -580,7 +620,13 @@
     "python.jediEnabled": false,
     "terminal.integrated.allowChords": false,
     "rainbow_csv.csv_lint_detect_trailing_spaces": true,
-    "git-graph.loadMoreCommitsAutomatically": false,
     "debug.onTaskErrors": "debugAnyway",
-    "sync.autoDownload": true
+    "sync.autoDownload": true,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "shellcheck.enableQuickFix": true,
+    "shellcheck.exclude": [
+        "1090",
+        "907",
+        "1091"
+    ]
 }

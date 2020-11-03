@@ -5,7 +5,7 @@
 	"bmewburn.vscode-intelephense-client",
 	"Braver.vscode-solarized",
 	"christian-kohler.path-intellisense",
-	"CoenraadS.bracket-pair-colorizer-2",
+	"CoenraadS.bracket-pair-colorizer",
 	"dbaeumer.vscode-eslint",
 	"dnicolson.binary-plist",
 	"DotJoshJohnson.xml",
@@ -47,7 +47,6 @@
 	"timonwong.shellcheck",
 	"VisualStudioExptTeam.vscodeintellicode",
 	"vscjava.vscode-java-debug",
-	"undefined_publisher.vscode-frida",
 	"vscode-icons-team.vscode-icons",
 	"whatwedo.twig",
 	"Zignd.html-css-class-completion"

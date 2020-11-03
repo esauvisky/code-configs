@@ -1,0 +1,30 @@
+[
+	{
+		"name": "arch-install",
+		"rootPath": "/home/emi/Coding/Projects/arch-install",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Pokemod Modules",
+		"rootPath": "/home/emi/Pokemod/modules",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Pokemod Dumps",
+		"rootPath": "/home/emi/Pokemod/pokemod-dumps",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Pokemod API",
+		"rootPath": "/home/emi/Pokemod/journey/api",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]

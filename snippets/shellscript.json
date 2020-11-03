@@ -13,9 +13,9 @@
     // 	"description": "Log output to console"
     // }
     "While Read Loop": {
-        "prefix": "whileread",
+        "prefix": "while read",
         "body": [
-            "while read ${1:line}; do",
+            "while read -r ${1:line}; do",
             "    ${0:echo \"Word count per line: $line\"}",
             "done < <(${2:cat list-of-dirs.txt | wc -w})",
         ],
@@ -30,4 +30,15 @@
         ],
         "description": "If Basic Block"
     },
+    "Confirmation Prompt": {
+        "prefix": "y/n",
+        "body": [
+            "read -p \"${1: }[y/N] \" -r",
+            "if [[ \\$REPLY =~ ^[Yy]$ ]]; then",
+            "    ${0:#stuff}",
+            "fi"
+        ],
+        "description": "A robust [y/N] confirmation prompt."
+    },
+
 }

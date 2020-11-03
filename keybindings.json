@@ -133,7 +133,7 @@
     {
         "key": "f4",
         "command": "editor.action.toggleWordWrap",
-        "when": "editorTextFocus && !isInDiffEditor"
+        "when": "editorTextFocus"
     },
     // Move line up and down behaviour:
     {
@@ -236,6 +236,7 @@
     {
         "key": "ctrl+shift+c",
         "command": "workbench.action.toggleSidebarVisibility",
+        "when": "!terminalFocus",
     },
     //////////
     //? GIT //
@@ -250,25 +251,6 @@
         "command": "workbench.action.compareEditor.previousChange",
         "when": "textCompareEditorVisible"
     },
-    {
-        "key": "alt+escape s",
-        "command": "git.stageSelectedRanges",
-    },
-    {
-        "key": "alt+escape u",
-        "command": "git.unstageSelectedRanges",
-    },
-    {
-        "key": "alt+escape c",
-        "command": "git.commit",
-    },
-    {
-        "key": "alt+escape r",
-        "command": "git.revertSelectedRanges",
-    },
-    //! /////////////////////////////////
-    //! FROM NOW ON NEEDS MANUAL CHECK //
-    //! /////////////////////////////////
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
@@ -312,7 +294,7 @@
     },
     {
         "key": "ctrl+t",
-        "command": "workbench.action.files.newUntitledFile"
+        "command": "workbench.action.files.newUntitledFile",
     },
     {
         "key": "ctrl+n",
@@ -826,16 +808,6 @@
         "command": "-workbench.action.openGlobalKeybindings"
     },
     {
-        "key": "ctrl+k ctrl+alt+s",
-        "command": "-git.stageSelectedRanges",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "ctrl+k ctrl+u",
-        "command": "-git.unstageSelectedRanges",
-        "when": "isInDiffEditor"
-    },
-    {
         "key": "alt+left",
         "command": "-workbench.action.terminal.focusPreviousPane",
         "when": "terminalFocus"
@@ -903,5 +875,127 @@
         "key": "ctrl+.",
         "command": "-editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-rerunSearchEditorSearch",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-revealFileInOS",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+k r",
+        "command": "-workbench.action.files.revealActiveFileInWindows"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "search.action.revealInSideBar",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "f3",
+        "command": "-workbench.action.terminal.findNext",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "f5",
+        "command": "git.revertSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "ctrl+shift+g f5",
+        "command": "git.revertSelectedRanges",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+r",
+        "command": "-git.revertSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "f3",
+        "command": "git.stageSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "ctrl+shift+g f3",
+        "command": "git.stageSelectedRanges",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+alt+s",
+        "command": "-git.stageSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "f2",
+        "command": "git.unstageSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "ctrl+shift+g f2",
+        "command": "git.unstageSelectedRanges",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+n",
+        "command": "-git.unstageSelectedRanges",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "f4",
+        "command": "-search.action.focusNextSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-search.action.focusPreviousSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "f4",
+        "command": "-references-view.next",
+        "when": "reference-list.hasResult"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-references-view.prev",
+        "when": "reference-list.hasResult"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-goToPreviousReference",
+        "when": "inReferenceSearchEditor || referenceSearchVisible"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+        "when": "inQuickOpen && inRecentFilesPicker"
     }
 ]
