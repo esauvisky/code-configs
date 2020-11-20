@@ -262,7 +262,7 @@
         "editor.suggest.statusBar.visible": true,
         "editor.wordBasedSuggestions": false
     },
-    "python.insidersChannel": "off",
+    "python.insidersChannel": "weekly",
     "python.formatting.provider": "yapf",
     "python.linting.pycodestyleArgs": [
         "--ignore=E501,W605,W503"
@@ -282,7 +282,6 @@
     "python.jediMemoryLimit": -1,
     "python.linting.pylintEnabled": true,
     "python.linting.pylintUseMinimalCheckers": false,
-    "python.pythonPath": "/tmp/.venv/bin/python3.8",
     "python.linting.pylintArgs": [
         // Disables specific common useless pylint error messages
         //? See http://pylint-messages.wikidot.com/all-codes to find
