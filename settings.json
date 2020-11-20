@@ -494,7 +494,7 @@
     "python.dataScience.enabled": false,
     "python.dataScience.searchForJupyter": false,
     "python.envFile": "${workspaceFolder}/.venv",
-    "python.languageServer": "Jedi",
+    "python.languageServer": "Microsoft",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.workspaceSymbols.enabled": true,
     /*
