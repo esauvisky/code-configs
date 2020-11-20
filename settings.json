@@ -11,7 +11,6 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-        "editor.suggest.statusBar.visible": true,
     },
     "[css]": {
         "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter",
@@ -259,7 +258,6 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python",
         "editor.autoIndent": "full",
-        "editor.suggest.statusBar.visible": true,
         "editor.wordBasedSuggestions": false
     },
     "python.insidersChannel": "weekly",
