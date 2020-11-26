@@ -26,5 +26,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "SpongyElephant",
+		"rootPath": "/home/emi/Coding/SpongyElephant",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
