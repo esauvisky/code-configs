@@ -163,7 +163,7 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.env.linux": {"$PWD": null},
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.cwd": "./${relativeFileDirname}",
+    "terminal.integrated.cwd": "${fileDirname}",
     "terminal.integrated.rendererType": "experimentalWebgl",
     "terminal.integrated.scrollback": 999999,
     "typescript.disableAutomaticTypeAcquisition": false,
