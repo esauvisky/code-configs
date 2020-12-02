@@ -268,7 +268,6 @@
     "python.linting.pycodestyleArgs": [
         "--ignore=E501,W605,W503"
     ],
-    "python.defaultInterpreterPath": "${workspaceRoot}/.venv/bin/python",
     "powermode.enabled": false,
     "powermode.explosionSize": 15,
     "powermode.presets": "fireworks",
@@ -623,5 +622,6 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "python.languageServer": "Microsoft"
+    "python.languageServer": "Microsoft",
+    "python.venvPath": "${workspaceFolder}/.venv"
 }
