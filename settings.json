@@ -622,5 +622,6 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "python.languageServer": "Microsoft"
 }
