@@ -482,7 +482,6 @@
     "gitlens.showWhatsNewAfterUpgrades": false,
     "html.format.endWithNewline": true,
     "python.envFile": "${workspaceFolder}/.venv",
-    "python.languageServer": "Microsoft",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.workspaceSymbols.enabled": true,
     /*
