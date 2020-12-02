@@ -623,5 +623,8 @@
         "**/.factorypath": true
     },
     "python.languageServer": "Microsoft",
-    "python.venvPath": "${workspaceFolder}/.venv"
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/.api"
+    ]
 }
