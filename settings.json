@@ -480,7 +480,7 @@
     "gitlens.gitCommands.search.showResultsInView": false,
     "gitlens.showWhatsNewAfterUpgrades": false,
     "html.format.endWithNewline": true,
-    "python.envFile": "${workspaceFolder}/.venv",
+    "python.envFile": "${workspaceFolder}/.env",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.workspaceSymbols.enabled": true,
     /*
@@ -623,8 +623,5 @@
         "**/.factorypath": true
     },
     "python.languageServer": "Microsoft",
-    "python.venvPath": "${workspaceFolder}/.venv",
-    "python.autoComplete.extraPaths": [
-        "${workspaceFolder}/api"
-    ]
+    "python.venvPath": "${workspaceFolder}/.venv"
 }
