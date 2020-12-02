@@ -905,7 +905,7 @@
         "command": "-workbench.action.files.revealActiveFileInWindows"
     },
     {
-        "key": "ctrl+r",
+        "key": "ctrl+shift+e",
         "command": "search.action.revealInSideBar",
         "when": "inSearchEditor"
     },
