@@ -625,6 +625,6 @@
     "python.languageServer": "Microsoft",
     "python.venvPath": "${workspaceFolder}/.venv",
     "python.autoComplete.extraPaths": [
-        "${workspaceFolder}/.api"
+        "${workspaceFolder}/api"
     ]
 }
