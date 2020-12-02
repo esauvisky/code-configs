@@ -165,7 +165,7 @@
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.serverSpawn":true,
     "terminal.integrated.enableFileLinks":true,
-    "terminal.integrated.cwd": "${fileDirPath}",
+    "terminal.integrated.cwd": "${fileDirname}",
     "terminal.integrated.rendererType": "experimentalWebgl",
     "terminal.integrated.scrollback": 999999,
     "typescript.disableAutomaticTypeAcquisition": false,
