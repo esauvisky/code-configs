@@ -159,7 +159,7 @@
     "sonarlint.disableTelemetry": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "terminal.external.linuxExec": "gnome-terminal",
+    "terminal.external.linuxExec": "kitty",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.rendererType": "experimentalWebgl",
