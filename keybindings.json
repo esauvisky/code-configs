@@ -218,7 +218,7 @@
     },
     {
         "key": "alt+t",
-        "command": "workbench.action.terminal.toggleTerminal",
+        "command": "-workbench.action.terminal.newWithCwd",
     },
     {
         "key": "alt+d",
