@@ -623,5 +623,6 @@
         "**/.factorypath": true
     },
     "python.languageServer": "Jedi",
-    "python.venvPath": "${workspaceFolder}/.venv"
+    "python.venvPath": "${workspaceFolder}/.venv",
+    "shellcheck.executablePath": "/usr/bin/shellcheck"
 }
