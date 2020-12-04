@@ -622,6 +622,6 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Jedi",
     "python.venvPath": "${workspaceFolder}/.venv"
 }
