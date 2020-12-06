@@ -165,7 +165,7 @@
     "terminal.integrated.serverSpawn": true,
     "terminal.integrated.enableFileLinks": true,
     "terminal.integrated.cwd": "${fileDirname}",
-    "terminal.integrated.rendererType": "experimentalWebgl",
+    "terminal.integrated.rendererType": "auto",
     "terminal.integrated.scrollback": 999999,
     "typescript.disableAutomaticTypeAcquisition": false,
     "vsintellicode.modify.editor.suggestSelection": "enabled",
