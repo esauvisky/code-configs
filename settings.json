@@ -103,7 +103,7 @@
     "breadcrumbs.enabled": true,
     "debug.inlineValues": true,
     "diffEditor.ignoreTrimWhitespace": true,
-    "diffEditor.renderSideBySide": true,
+    "diffEditor.renderSideBySide": false,
     "vetur.format.defaultFormatter.html": "prettier",
     "vetur.format.defaultFormatter.js": "prettier",
     // Number of spaces per indentation level. Inherited by all formatters.
