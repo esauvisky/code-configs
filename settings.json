@@ -139,11 +139,11 @@
     "projectManager.filterOnFullPath": true,
     "projectManager.groupList": true,
     "projectManager.sortList": "Saved",
-    "projectManager.git.maxDepthRecursion": 1,
+    "projectManager.git.maxDepthRecursion": 2,
     "projectManager.openInNewWindowWhenClickingInStatusBar": true,
     "projectManager.git.baseFolders": [
         "/home/emi/Coding/",
-        "/home/emi/Coding/Pokemod"
+        "/home/emi/Pokemod"
     ],
     "projectManager.git.ignoredFolders": [
         "node_modules",
