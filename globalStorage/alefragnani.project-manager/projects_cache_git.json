@@ -1,1 +1,22 @@
-[]
+[
+	{
+		"fullPath": "/home/emi/Coding/PGo-CalcaBotaBotaCalca",
+		"name": "PGo-CalcaBotaBotaCalca"
+	},
+	{
+		"fullPath": "/home/emi/Coding/PGoControl",
+		"name": "PGoControl"
+	},
+	{
+		"fullPath": "/home/emi/Coding/Scripts",
+		"name": "Scripts"
+	},
+	{
+		"fullPath": "/home/emi/Coding/SpongyElephant",
+		"name": "SpongyElephant"
+	},
+	{
+		"fullPath": "/home/emi/Coding/SpongyLearnAtOnce",
+		"name": "SpongyLearnAtOnce"
+	}
+]

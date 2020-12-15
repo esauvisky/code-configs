@@ -142,9 +142,8 @@
     "projectManager.git.maxDepthRecursion": 1,
     "projectManager.openInNewWindowWhenClickingInStatusBar": true,
     "projectManager.git.baseFolders": [
-        "/home/esauvisky/Bravi/",
-        "/home/esauvisky/Coding/",
-        "/home/esauvisky/Coding/Pokemod",
+        "/home/emi/Coding/",
+        "/home/emi/Coding/Pokemod"
     ],
     "projectManager.git.ignoredFolders": [
         "node_modules",
