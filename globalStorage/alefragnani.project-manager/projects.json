@@ -33,5 +33,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "Atlas Hardware",
+		"rootPath": "/home/emi/Pokemod/atlas/hardware",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
