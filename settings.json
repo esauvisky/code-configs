@@ -450,10 +450,9 @@
     "intelephense.diagnostics.enable": true,
     "intelephense.diagnostics.run": "onSave",
     "workbench.statusBar.visible": true,
-    "gitlens.views.repositories.branches.layout": "list",
     "gitlens.sortBranchesBy": "date:desc",
     "gitlens.sortTagsBy": "date:desc",
-    "gitlens.views.repositories.files.layout": "list",
+    "gitlens.views.repositories.files.layout": "tree",
     "gitlens.views.repositories.files.compact": false,
     "gitlens.views.search.location": "scm",
     "editor.renderWhitespace": "none",
@@ -625,5 +624,7 @@
     "update.mode": "start",
     "update.showReleaseNotes": false,
     "git.enableStatusBarSync": false,
-    "gitlens.views.search.files.layout": "tree"
+    "gitlens.views.search.files.layout": "tree",
+    "gitlens.views.repositories.showBranchComparison": false,
+    "gitlens.views.repositories.branches.layout": "list"
 }
