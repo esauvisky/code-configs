@@ -452,8 +452,7 @@
     "workbench.statusBar.visible": true,
     "gitlens.sortBranchesBy": "date:desc",
     "gitlens.sortTagsBy": "date:desc",
-    "gitlens.views.repositories.files.layout": "tree",
-    "gitlens.views.repositories.files.compact": false,
+    "gitlens.views.repositories.files.layout": "list",
     "gitlens.views.search.location": "scm",
     "editor.renderWhitespace": "none",
     "rewrap.wrappingColumn": 100,
@@ -626,5 +625,7 @@
     "git.enableStatusBarSync": false,
     "gitlens.views.search.files.layout": "tree",
     "gitlens.views.repositories.showBranchComparison": false,
-    "gitlens.views.repositories.branches.layout": "list"
+    "gitlens.views.repositories.branches.layout": "list",
+    "gitlens.views.search.enabled": false,
+    "gitlens.views.compare.enabled": false
 }
