@@ -132,7 +132,6 @@
     "gitlens.views.fileHistory.location": "scm",
     "gitlens.views.lineHistory.location": "scm",
     "gitlens.views.repositories.location": "scm",
-    "gitlens.views.search.files.layout": "list",
     "path-autocomplete.triggerOutsideStrings": true,
     "local-history.path": "/home/esauvisky/.config/Code - OSS/LocalHistory/",
     "projectManager.filterOnFullPath": true,
@@ -626,5 +625,5 @@
     "update.mode": "start",
     "update.showReleaseNotes": false,
     "git.enableStatusBarSync": false,
-    "gitlens.views.search.enabled": false
+    "gitlens.views.search.files.layout": "tree"
 }
