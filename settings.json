@@ -46,7 +46,7 @@
     "editor.emptySelectionClipboard": false,
     "editor.find.autoFindInSelection": "multiline",
     "editor.find.seedSearchStringFromSelection": false,
-    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.accessibilitySupport": "off",
     "editor.fontSize": 12,
     "editor.formatOnPaste": false,
