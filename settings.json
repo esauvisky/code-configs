@@ -131,7 +131,6 @@
     "gitlens.views.compare.location": "scm",
     "gitlens.views.fileHistory.location": "scm",
     "gitlens.views.lineHistory.location": "scm",
-    "gitlens.views.repositories.location": "scm",
     "path-autocomplete.triggerOutsideStrings": true,
     "local-history.path": "/home/esauvisky/.config/Code - OSS/LocalHistory/",
     "projectManager.filterOnFullPath": true,
@@ -670,5 +669,8 @@
         }
     },
     "gitlens.views.repositories.showBranchComparison": false,
-    "gitlens.views.repositories.compact": true
+    "gitlens.views.repositories.compact": true,
+    "gitlens.views.repositories.includeWorkingTree": false,
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.repositories.showTrackingBranch": false
 }
