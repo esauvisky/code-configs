@@ -451,7 +451,6 @@
     "workbench.statusBar.visible": true,
     "gitlens.sortBranchesBy": "date:desc",
     "gitlens.sortTagsBy": "date:desc",
-    "gitlens.views.repositories.files.layout": "list",
     "gitlens.views.search.location": "scm",
     "editor.renderWhitespace": "none",
     "rewrap.wrappingColumn": 100,
