@@ -633,7 +633,7 @@
     "gitlens.blame.toggleMode": "window",
     "gitlens.menus": {
         "editor": {
-            "blame": false,
+            "blame": true,
             "clipboard": true,
             "compare": true,
             "details": false,
