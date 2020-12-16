@@ -624,7 +624,6 @@
     "update.showReleaseNotes": false,
     "git.enableStatusBarSync": false,
     "gitlens.views.search.files.layout": "tree",
-    "gitlens.views.repositories.showBranchComparison": false,
     "gitlens.views.repositories.branches.layout": "list",
     "gitlens.views.search.enabled": false,
     "gitlens.views.compare.enabled": false,
@@ -669,5 +668,6 @@
             "remote": true,
             "stash": true
         }
-    }
+    },
+    "gitlens.views.repositories.showBranchComparison": false
 }
