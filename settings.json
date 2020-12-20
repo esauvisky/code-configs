@@ -615,7 +615,7 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "python.languageServer": "Jedi",
+    "python.languageServer": "Microsoft",
     "python.venvPath": "${workspaceFolder}/.venv",
     "shellcheck.executablePath": "/usr/bin/shellcheck",
     "update.mode": "start",
