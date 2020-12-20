@@ -255,6 +255,7 @@
     "python.autoComplete.addBrackets": true,
     "python.globalModuleInstallation": false,
     "[python]": {
+
         "editor.defaultFormatter": "ms-python.python",
         "editor.autoIndent": "full",
         "editor.wordBasedSuggestions": false
@@ -615,7 +616,6 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "python.languageServer": "Microsoft",
     "python.venvPath": "${workspaceFolder}/.venv",
     "shellcheck.executablePath": "/usr/bin/shellcheck",
     "update.mode": "start",
