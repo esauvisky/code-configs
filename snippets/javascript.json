@@ -27,9 +27,8 @@
 			"        $1",
 			"    },",
 			"    onLeave: function(retval) {",
-			"        $2",
-			"        return retval;",
-			"    }",
+			"        ${2:return retval;}",
+			"    },",
 			"});"
 		],
 		"description": "Basic .attach() snippet for dittolib3"
