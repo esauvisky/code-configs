@@ -18,5 +18,20 @@
 			"console.log(`$0: \\${$0}`);",
 		],
 		"description": "Log output to console"
+	},
+	"DittoLib .attach()": {
+		"prefix": ".attach(",
+		"body": [
+			".attach({",
+			"    onEnter: function(args) {",
+			"        $1",
+			"    },",
+			"    onLeave: function(retval) {",
+			"        $2",
+			"        return retval;",
+			"    }",
+			"});"
+		],
+		"description": "Basic .attach() snippet for dittolib3"
 	}
 }
