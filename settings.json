@@ -672,9 +672,15 @@
     "gitlens.views.repositories.includeWorkingTree": false,
     "gitlens.views.repositories.location": "scm",
     "gitlens.views.repositories.showTrackingBranch": false,
-    "python.pythonPath": "/home/emi/Pokemod/atlas/route_optim/emi/.venv/bin/python",
     "python.experiments.optInto": [
     "All"
     ],
-    "python.languageServer": "Microsoft"
+    "python.languageServer": "Microsoft",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "ms-python.python.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.defaultInterpreterPath": "/home/emi/Pokemod/atlas/route_optim/emi/.venv/bin/python"
 }
