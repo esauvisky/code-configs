@@ -29,7 +29,7 @@
 	},
 	{
 		"name": "Pokemod API",
-		"rootPath": "/home/emi/Pokemod/journey/api",
+		"rootPath": "/home/emi/Pokemod/hal/api",
 		"paths": [],
 		"group": "",
 		"enabled": true
