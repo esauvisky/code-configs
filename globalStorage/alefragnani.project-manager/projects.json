@@ -47,5 +47,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "Emi's ]Enhanced Discord",
+		"rootPath": "/home/emi/.config/EnhancedDiscord",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
