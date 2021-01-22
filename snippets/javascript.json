@@ -15,9 +15,9 @@
 	"Console.Log Variable": {
 		"prefix": "log",
 		"body": [
-			"console.log(`$0: \\${$0}`);",
+			"log(`$0: \\${$0}`);",
 		],
-		"description": "Log output to console"
+		"description": "Logs a variable to console specifying which one."
 	},
 	"DittoLib .attach()": {
 		"prefix": ".attach(",
