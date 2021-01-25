@@ -23,9 +23,9 @@
 		"prefix": ".attach(",
 		"body": [
 			".attach({",
-			"    onEnter: function(args) {",
-			"        $1",
-			"    },",
+			"    ${1:onEnter: function(args) {\n",
+			"        $3",
+			"    },}",
 			"    onLeave: function(retval) {",
 			"        ${2:return retval;}",
 			"    },",
