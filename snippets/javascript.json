@@ -22,9 +22,8 @@
 	"DittoLib .attach()": {
 		"prefix": ".attach(",
 		"body": [
-			".attach(${1:{\n    onEnter: function(args) {\n        $0\n    \\},}",
-			"${2:    function(args) {\n        $0\n    \\},\n}",
-			"});"
+			".attach(${1:{\n    onEnter: function(args) {\n        $3\n    \\},}",
+			"${2:    function(args) {\n        $4\n    \\},\n}});"
 		],
 		"description": "Basic .attach() snippet for dittolib3"
 	},
