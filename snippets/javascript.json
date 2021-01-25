@@ -23,10 +23,7 @@
 		"prefix": ".attach(",
 		"body": [
 			".attach(${1:{\n    onEnter: function(args) {\n        $3\n    \\},}",
-			"    onLeave: function(retval) {",
-			"        ${2:return retval;}",
-			"    },",
-			"});"
+			"${2:    function(args) {\n        $3\n    \\},\n}});"
 		],
 		"description": "Basic .attach() snippet for dittolib3"
 	},
