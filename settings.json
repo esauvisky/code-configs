@@ -102,7 +102,7 @@
     "autoDocstring.startOnNewLine": true,
     "breadcrumbs.enabled": true,
     "debug.inlineValues": true,
-    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
     "vetur.format.defaultFormatter.html": "prettier",
     "vetur.format.defaultFormatter.js": "prettier",
