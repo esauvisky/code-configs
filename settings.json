@@ -596,7 +596,8 @@
         "Rectangles",
         "Doom",
         "Contessa",
-        "Mini"
+        "Mini",
+        "Small"
     ],
     "banner-comments-plus.font": "Calvin S",
     "banner-comments-plus.commentStyle": "block",
