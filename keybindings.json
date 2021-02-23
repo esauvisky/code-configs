@@ -566,16 +566,6 @@
         "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
-        "key": "ctrl+tab",
-        "command": "workbench.action.nextPanelView",
-        "when": "panelFocus",
-    },
-    {
-        "key": "ctrl+shift+tab",
-        "command": "workbench.action.previousPanelView",
-        "when": "panelFocus",
-    },
-    {
         "key": "ctrl+shift+o",
         "command": "workbench.action.files.openFolder"
     },
