@@ -785,6 +785,10 @@
         "command": "editor.action.fontZoomOut"
     },
     {
+        "key": "shift+alt+k",
+        "command": "workbench.action.closeEditorsToTheRight"
+    },
+    {
         "key": "ctrl+shift+w",
         "command": "workbench.action.terminal.kill",
         "when": "panelFocus"
