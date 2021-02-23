@@ -676,7 +676,6 @@
     "python.experiments.optInto": [
     "All"
     ],
-    "python.languageServer": "Microsoft",
     "workbench.editorAssociations": [
         {
             "viewType": "ms-python.python.notebook.ipynb",
