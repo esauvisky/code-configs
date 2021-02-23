@@ -786,7 +786,7 @@
     },
     {
         "key": "ctrl+shift+w",
-        "command": "workbench.action.closePanel",
+        "command": "workbench.action.terminal.kill",
         "when": "panelFocus"
     },
     {
