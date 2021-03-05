@@ -453,7 +453,7 @@
     "gitlens.sortBranchesBy": "date:desc",
     "gitlens.sortTagsBy": "date:desc",
     "gitlens.views.search.location": "scm",
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "none",
     "rewrap.wrappingColumn": 100,
     "autoDocstring.includeName": true,
     "banner-comments-plus.trimEmptyLines": true,
