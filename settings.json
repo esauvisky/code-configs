@@ -676,12 +676,7 @@
     "python.experiments.optInto": [
     "All"
     ],
-    "workbench.editorAssociations": [
-        {
-            "viewType": "ms-python.python.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": [],
     "python.defaultInterpreterPath": "/home/emi/Pokemod/atlas/route_optim/emi/.venv/bin/python",
     "gitlens.views.lineHistory.enabled": true
 }
