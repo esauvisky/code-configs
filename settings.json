@@ -177,7 +177,6 @@
     "window.restoreFullscreen": true,
     "window.newWindowDimensions": "maximized",
     "window.openWithoutArgumentsInNewWindow": "off",
-    "window.zoomLevel": -1,
     "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.centeredLayoutAutoResize": false,
     "workbench.editor.highlightModifiedTabs": true,
