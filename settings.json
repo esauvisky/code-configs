@@ -677,5 +677,6 @@
     ],
     "workbench.editorAssociations": [],
     "python.defaultInterpreterPath": "/home/emi/Pokemod/atlas/route_optim/emi/.venv/bin/python",
-    "gitlens.views.lineHistory.enabled": true
+    "gitlens.views.lineHistory.enabled": true,
+    "window.zoomLevel": -1
 }
