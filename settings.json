@@ -382,7 +382,7 @@
         "statusBar": "none",
         "titleBar": "lighten"
     },
-    "workbench.settings.enableNaturalLanguageSearch": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.iconTheme": "material-icon-theme",
     "vsicons.dontShowNewVersionMessage": true,
     "path-intellisense.extensionOnImport": true,
@@ -676,7 +676,6 @@
     "All"
     ],
     "workbench.editorAssociations": [],
-    "python.defaultInterpreterPath": "/home/emi/Pokemod/atlas/route_optim/emi/.venv/bin/python",
     "gitlens.views.lineHistory.enabled": true,
     "window.zoomLevel": -1
 }
