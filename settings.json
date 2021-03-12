@@ -677,5 +677,6 @@
     ],
     "workbench.editorAssociations": [],
     "gitlens.views.lineHistory.enabled": true,
-    "window.zoomLevel": -1
+    "window.zoomLevel": -1,
+    "python.defaultInterpreterPath": "/sbin/python"
 }
