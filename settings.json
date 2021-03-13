@@ -686,5 +686,6 @@
     "VSCord.detailsEditing": "Dealing with {problems} issues...",
     "VSCord.detailsIdle": "Dealing with {problems} issues...",
     "VSCord.detailsDebugging": "Debugging...",
-    "VSCord.detailsViewing": "Dealing with {problems} issues..."
+    "VSCord.detailsViewing": "Dealing with {problems} issues...",
+    "VSCord.lowerDetailsEditing": "Dealing with {problems} issues..."
 }
