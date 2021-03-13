@@ -683,10 +683,10 @@
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
-    "VSCord.detailsEditing": "Working ",
+    "VSCord.detailsEditing": "Working on a project with {problems} issues",
     "VSCord.detailsIdle": "Editing a {totallines} lines long file while dealing with {problems} issues...",
     "VSCord.detailsDebugging": "Debugging...",
-    "VSCord.detailsViewing": "Dealing with {problems} issues...",
+    "VSCord.detailsViewing": "Editing a {totallines} lines long file while dealing with {problems} issues...",
     "VSCord.lowerDetailsEditing": "Editing a {totallines} lines long file while dealing with {problems} issues...",
     "VSCord.lowerDetailsViewing": "Dealing with {problems} issues..."
 }
