@@ -685,5 +685,6 @@
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
     "VSCord.detailsEditing": "Dealing with {problems} issues...",
     "VSCord.detailsIdle": "Dealing with {problems} issues...",
-    "VSCord.detailsDebugging": "Debugging..."
+    "VSCord.detailsDebugging": "Debugging...",
+    "VSCord.detailsViewing": "Dealing with {problems} issues..."
 }
