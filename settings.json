@@ -75,14 +75,14 @@
     // They're used together with "editor.minimap.showSlider": "always"
     // to use the minimap slider as the scrollbar.
     // "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.scrollbar.verticalScrollbarSize": 10,
+    // "editor.scrollbar.vertical": "hidden",
+    // "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.minimap.enabled": true,
     "editor.minimap.maxColumn": 100,
-    "editor.minimap.showSlider": "always",
-    "editor.minimap.size": "fill",
+    // "editor.minimap.showSlider": "always",
+    // "editor.minimap.size": "fill",
     "editor.minimap.scale": 2,
-    "editor.minimap.renderCharacters": true,
+    // "editor.minimap.renderCharacters": true,
     //////////////
     // EXPLORER //
     //////////////
@@ -556,28 +556,6 @@
     "hungryDelete.considerIncreaseIndentPattern": true,
     "hungryDelete.keepOneSpaceException": ">;",
     "hungryDelete.enableSmartBackspace": true,
-    /*
-    //  ____  _                   _
-    // |    \|_|___ ___ ___ ___ _| |
-    // |  |  | |_ -|  _| . |  _| . |
-    // |____/|_|___|___|___|_| |___|
-    */
-    "discord.detailsIdle": "Having a",
-    "discord.lowerDetailsIdle": "   🚬 and a ☕",
-    "discord.largeImageIdle": "Writing some code",
-    "discord.detailsEditing": "Working at:",
-    "discord.detailsDebugging": "Debugging:",
-    "discord.largeImage": "Writing {lang} code",
-    "discord.lowerDetailsDebugging": "   {workspace}",
-    "discord.lowerDetailsEditing": "   {workspace}",
-    "discord.lowerDetailsNotFound": "{currentline} of {totallines}",
-    "discord.smallImage": "Pokémod ❤️",
-    "discord.workspaceExcludePatterns": [
-        "frida",
-        "spongyelephant"
-    ],
-    "discord.silent": false,
-    "discord.workspaceElapsedTime": true,
     "eslint.codeAction.showDocumentation": {
         "enable": true
     },
@@ -676,10 +654,8 @@
     "All"
     ],
     "workbench.editorAssociations": [],
-    "gitlens.views.lineHistory.enabled": true,
     "window.zoomLevel": -1,
-    "python.defaultInterpreterPath": "/sbin/python",
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Jedi",
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",

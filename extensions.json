@@ -40,6 +40,7 @@
 	"ms-vscode.cpptools",
 	"njpwerner.autodocstring",
 	"PKief.material-icon-theme",
+	"platformio.platformio-ide",
 	"redhat.java",
 	"redhat.vscode-yaml",
 	"rogalmic.bash-debug",
