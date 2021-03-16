@@ -80,7 +80,7 @@
     "editor.minimap.enabled": true,
     "editor.minimap.maxColumn": 100,
     // "editor.minimap.showSlider": "always",
-    // "editor.minimap.size": "fill",
+    "editor.minimap.size": "fit",
     "editor.minimap.scale": 2,
     "editor.minimap.renderCharacters": false,
     //////////////
