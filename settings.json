@@ -672,5 +672,9 @@
     "VSCord.detailsViewing": "Editing a {totallines} lines long file while dealing with {problems} issues...",
     "VSCord.lowerDetailsEditing": "Editing a {totallines} lines long file while dealing with {problems} issues...",
     "VSCord.lowerDetailsViewing": "Dealing with {problems} issues...",
-    "VSCord.workspaceElapsedTime": true
+    "VSCord.workspaceElapsedTime": true,
+    "intelephense.environment.includePaths": [
+        "/home/emi/Coding/Arduino/libraries"
+    ],
+    "C_Cpp.addNodeAddonIncludePaths": true
 }
