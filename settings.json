@@ -74,15 +74,15 @@
     // The following three options say do not work but actually do.
     // They're used together with "editor.minimap.showSlider": "always"
     // to use the minimap slider as the scrollbar.
-    // "editor.scrollbar.horizontal": "hidden",
-    // "editor.scrollbar.vertical": "hidden",
-    // "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.minimap.enabled": true,
     "editor.minimap.maxColumn": 100,
     // "editor.minimap.showSlider": "always",
     // "editor.minimap.size": "fill",
     "editor.minimap.scale": 2,
-    // "editor.minimap.renderCharacters": true,
+    "editor.minimap.renderCharacters": false,
     //////////////
     // EXPLORER //
     //////////////
