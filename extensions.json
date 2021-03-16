@@ -36,6 +36,7 @@
 	"mrmlnc.vscode-scss",
 	"ms-dotnettools.csharp",
 	"ms-python.python",
+	"ms-toolsai.jupyter",
 	"ms-vscode-remote.remote-ssh",
 	"ms-vscode.cpptools",
 	"njpwerner.autodocstring",

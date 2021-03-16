@@ -655,7 +655,12 @@
     "python.experiments.optInto": [
     "All"
     ],
-    "workbench.editorAssociations": [],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
     "window.zoomLevel": -1,
     "python.languageServer": "Jedi",
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
