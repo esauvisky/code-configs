@@ -683,5 +683,6 @@
     "C_Cpp.vcFormat.newLine.beforeCatch": false,
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
-    "C_Cpp.formatting": "vcFormat"
+    "C_Cpp.formatting": "vcFormat",
+    "VSCord.checkIdle": false
 }
