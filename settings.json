@@ -669,7 +669,7 @@
     "VSCord.detailsEditing": "Working on a project with {problems} bugs.",
     "VSCord.detailsViewing": "Working on a project with {problems} bugs.",
     "VSCord.detailsDebugging": "Testing in production a project with {problems} issues...",
-    "VSCord.lowerDetailsEditing": "${totallines} lines and {problems}...",
+    "VSCord.lowerDetailsEditing": "Editing a file with ${totallines} lines and {problems}...",
     "VSCord.lowerDetailsViewing": "${totallines} lines and {problems}...",
     "VSCord.workspaceElapsedTime": true,
     "intelephense.environment.includePaths": [
@@ -688,5 +688,7 @@
     "VSCord.idleText": "",
     "VSCord.largeImage": "Making it look I know what {LANG} is about.",
     "VSCord.largeImageIdle": "",
-    "VSCord.lowerDetailsDebugging": "Testing in production a project with {problems} issues..."
+    "VSCord.lowerDetailsDebugging": "Debugging something with {problems} bugs...",
+    "VSCord.lowerDetailsIdle": "",
+    "VSCord.lowerDetailsNotFound": ""
 }
