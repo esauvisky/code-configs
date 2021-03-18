@@ -687,6 +687,7 @@
     "VSCord.lowerDetailsNotFound": "Doing some weird stuff 🤷",
     "VSCord.problemsText": "{count}",
     "VSCord.appName": "VSCode ‎‍💻",
+    "VSCord.disconnectTimeout": 20,
     "VSCord.detailsIdle": "{null}",
     "VSCord.idleText": "Who knows?",
     "VSCord.largeImageIdle": "Some weird stuff, for sure",
