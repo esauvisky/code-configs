@@ -679,5 +679,7 @@
     "C_Cpp.addNodeAddonIncludePaths": true,
     "C_Cpp.vcFormat.indent.braces": true,
     "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
-    "C_Cpp.vcFormat.indent.multiLineRelativeTo": "outermostParenthesis"
+    "C_Cpp.vcFormat.newLine.beforeElse": false,
+    "C_Cpp.vcFormat.newLine.beforeCatch": false,
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine"
 }
