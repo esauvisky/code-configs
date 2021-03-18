@@ -668,7 +668,7 @@
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
     "VSCord.detailsEditing": "Working on a project with {problems} issues",
     "VSCord.detailsDebugging": "Debugging...",
-    "VSCord.detailsViewing": "Editing a ${totallines} lines long file while dealing with {problems} issues...",
+    "VSCord.detailsViewing": "Editing a ${totallines} lines file while dealing with {problems} issues...",
     "VSCord.lowerDetailsEditing": "Editing a ${totallines} lines long file while dealing with {problems} issues...",
     "VSCord.lowerDetailsViewing": "Dealing with {problems} issues...",
     "VSCord.workspaceElapsedTime": true,
@@ -683,5 +683,6 @@
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
     "C_Cpp.formatting": "vcFormat",
-    "VSCord.checkIdle": false
+    "VSCord.checkIdle": false,
+    "VSCord.detailsIdle": ""
 }
