@@ -287,22 +287,22 @@
         "--disable=C0301,C0411,C0103,C0111,C0330,W0703,W605,E501",
         "--extension-pkg-whitelist=cv2"
     ],
-    "bracketPairColorizer.scopeLineCSS": [
+    "bracketPairColorizer-2.scopeLineCSS": [
         "borderStyle : solid",
         "borderWidth : 1px",
         "borderColor : {color}; opacity: 0.5"
     ],
     // True: Scope Line will start from the ending bracket position. False: Scope Line will always be at column 0
-    "bracketPairColorizer.scopeLineRelativePosition": true,
+    "bracketPairColorizer-2.scopeLineRelativePosition": true,
     // Scope colors
-    "bracketPairColorizer.colorMode": "Consecutive",
+    "bracketPairColorizer-2.colorMode": "Consecutive",
     // Show active bracket scope in gutter?
-    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer-2.showBracketsInGutter": true,
     // Show active bracket scope in ruler?
-    "bracketPairColorizer.showBracketsInRuler": true,
-    "bracketPairColorizer.forceUniqueOpeningColor": false,
-    "bracketPairColorizer.highlightActiveScope": true,
-    "bracketPairColorizer.activeScopeCSS": [
+    "bracketPairColorizer-2.showBracketsInRuler": true,
+    "bracketPairColorizer-2.forceUniqueOpeningColor": false,
+    "bracketPairColorizer-2.highlightActiveScope": true,
+    "bracketPairColorizer-2.activeScopeCSS": [
         "borderStyle : solid",
         "borderWidth : 1px",
         "borderColor : {color}; opacity: 1"
