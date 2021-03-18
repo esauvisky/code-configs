@@ -666,7 +666,7 @@
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
-    "VSCord.detailsEditing": "",
+    "VSCord.detailsEditing": "Trying to edit a ",
     "VSCord.detailsViewing": "Working on a project with {problems} issues.",
     "VSCord.detailsDebugging": "Testing in production...",
     "VSCord.lowerDetailsEditing": "${totallines} lines and {problems}...",
