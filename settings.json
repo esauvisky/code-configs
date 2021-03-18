@@ -686,11 +686,11 @@
     "VSCord.lowerDetailsDebugging": "Debugging something with {problems} bugs",
     "VSCord.lowerDetailsNotFound": "Doing some weird stuff",
     "VSCord.problemsText": "{count}",
-    "VSCord.appName": "Visual Studio Code",
-    "VSCord.detailsIdle": "",
+    "VSCord.appName": "VSCode",
+    "VSCord.detailsIdle": "{null}",
     "VSCord.idleText": "Who knows?",
     "VSCord.largeImageIdle": "Some weird stuff, for sure.",
     "VSCord.smallImage": "Hi there 😘",
     "VSCord.lowerDetailsIdle": "{null}",
-    // "VSCord.id": "822102697758031882"
+    "VSCord.id": "822102697758031882"
 }
