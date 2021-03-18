@@ -666,7 +666,7 @@
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
-    "VSCord.detailsEditing": "Working on a project with {problems} bugs.",
+    "VSCord.detailsEditing": "Working on a project with {problems} bugs.Doing some weird stuff most likely",
     "VSCord.detailsViewing": "Working on a project with {problems} bugs.",
     "VSCord.detailsDebugging": "Testing in production a project with {problems} issues...",
     "VSCord.lowerDetailsEditing": "Editing a file with ${totallines} lines and {problems}...",
@@ -683,12 +683,13 @@
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
     "C_Cpp.formatting": "vcFormat",
     "VSCord.checkIdle": false,
-    "VSCord.detailsIdle": "",
-    "VSCord.idleText": "",
+    "VSCord.detailsIdle": "Doing some weird stuff most likely",
+    "VSCord.idleText": "Doing some weird stuff most likely",
     "VSCord.largeImage": "Making it look I know what {LANG} is about.",
-    "VSCord.largeImageIdle": "",
+    "VSCord.largeImageIdle": "Doing some weird stuff most likely",
     "VSCord.lowerDetailsDebugging": "Debugging something with {problems} bugs...",
     "VSCord.lowerDetailsIdle": "",
-    "VSCord.lowerDetailsNotFound": "",
-    "VSCord.problemsText": "{count}"
+    "VSCord.lowerDetailsNotFound": "Doing some weird stuff most likely",
+    "VSCord.problemsText": "{count}",
+    "VSCord.appName": "Visual Studio Code"
 }
