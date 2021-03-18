@@ -687,7 +687,7 @@
     "VSCord.lowerDetailsNotFound": "Doing some weird stuff",
     "VSCord.problemsText": "{count}",
     "VSCord.appName": "VSCode",
-    "VSCord.detailsIdle": "Doing some weird stuff most likely 👀",
+    "VSCord.detailsIdle": "",
     "VSCord.idleText": "Who knows?",
     "VSCord.largeImageIdle": "Some weird stuff, for sure.",
     "VSCord.smallImage": "Hi there 😘",
