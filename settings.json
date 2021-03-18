@@ -668,7 +668,7 @@
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
     "VSCord.detailsEditing": "Working on a project with {problems} bugs.",
     "VSCord.detailsViewing": "Working on a project with {problems} issues",
-    "VSCord.detailsDebugging": "Testing in production...",
+    "VSCord.detailsDebugging": "Testing in production a project with with {problems} issues...",
     "VSCord.lowerDetailsEditing": "${totallines} lines and {problems}...",
     "VSCord.lowerDetailsViewing": "${totallines} lines and {problems}...",
     "VSCord.workspaceElapsedTime": true,
