@@ -688,5 +688,6 @@
     "VSCord.problemsText": "{count}",
     "VSCord.appName": "Visual Studio Code",
     "VSCord.detailsIdle": "Doing some weird stuff most likely 👀",
-    "VSCord.idleText": "Who knows?"
+    "VSCord.idleText": "Who knows?",
+    "VSCord.largeImageIdle": "Some weird stuff, for sure."
 }
