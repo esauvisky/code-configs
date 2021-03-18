@@ -690,7 +690,6 @@
     "VSCord.detailsIdle": "{null}",
     "VSCord.idleText": "Who knows?",
     "VSCord.largeImageIdle": "Some weird stuff, for sure",
-    "VSCord.smallImage": "Hi there 😘",
     "VSCord.lowerDetailsIdle": "{null}",
     "[typescript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
