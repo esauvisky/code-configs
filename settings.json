@@ -686,5 +686,6 @@
     "VSCord.lowerDetailsDebugging": "Debugging something with {problems} bugs...",
     "VSCord.lowerDetailsNotFound": "Doing some weird stuff most likely",
     "VSCord.problemsText": "{count}",
-    "VSCord.appName": "Visual Studio Code"
+    "VSCord.appName": "Visual Studio Code",
+    "VSCord.detailsIdle": "Doing some weird stuff most likely 👀"
 }
