@@ -676,5 +676,6 @@
     "intelephense.environment.includePaths": [
         "/home/emi/Coding/Arduino/libraries"
     ],
-    "C_Cpp.addNodeAddonIncludePaths": true
+    "C_Cpp.addNodeAddonIncludePaths": true,
+    "C_Cpp.formatting": "vcFormat"
 }
