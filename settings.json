@@ -670,8 +670,7 @@
     "VSCord.detailsViewing": "Working on a project with {problems} bugs.",
     "VSCord.detailsDebugging": "Testing in production a project with {problems} issues...",
     "VSCord.lowerDetailsEditing": "Editing a file with ${totallines} lines and {problems}...",
-    "VSCord.lowerDetailsViewing": "${totallines} lines and {problems}...",
-    "VSCord.workspaceElapsedTime": true,
+    "VSCord.lowerDetailsViewing": "Editing a file with ${totallines} lines and {problems}...",
     "intelephense.environment.includePaths": [
         "/home/emi/Coding/Arduino/libraries"
     ],
@@ -690,5 +689,6 @@
     "VSCord.largeImageIdle": "",
     "VSCord.lowerDetailsDebugging": "Debugging something with {problems} bugs...",
     "VSCord.lowerDetailsIdle": "",
-    "VSCord.lowerDetailsNotFound": ""
+    "VSCord.lowerDetailsNotFound": "",
+    "VSCord.problemsText": "{count}"
 }
