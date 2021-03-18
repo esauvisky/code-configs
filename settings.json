@@ -667,8 +667,8 @@
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
     "VSCord.detailsEditing": "Working on a project with {problems} bugs.",
-    "VSCord.detailsViewing": "Working on a project with {problems} issues",
-    "VSCord.detailsDebugging": "Testing in production a project with with {problems} issues...",
+    "VSCord.detailsViewing": "Working on a project with {problems} bugs.",
+    "VSCord.detailsDebugging": "Testing in production a project with {problems} issues...",
     "VSCord.lowerDetailsEditing": "${totallines} lines and {problems}...",
     "VSCord.lowerDetailsViewing": "${totallines} lines and {problems}...",
     "VSCord.workspaceElapsedTime": true,
@@ -687,5 +687,6 @@
     "VSCord.detailsIdle": "",
     "VSCord.idleText": "",
     "VSCord.largeImage": "Making it look I know what {LANG} is about.",
-    "VSCord.largeImageIdle": ""
+    "VSCord.largeImageIdle": "",
+    "VSCord.lowerDetailsDebugging": "Testing in production a project with {problems} issues..."
 }
