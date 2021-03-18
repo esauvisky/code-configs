@@ -677,5 +677,7 @@
         "/home/emi/Coding/Arduino/libraries"
     ],
     "C_Cpp.addNodeAddonIncludePaths": true,
-    "C_Cpp.formatting": "vcFormat"
+    "C_Cpp.vcFormat.indent.braces": true,
+    "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
+    "C_Cpp.vcFormat.indent.multiLineRelativeTo": "outermostParenthesis"
 }
