@@ -682,13 +682,8 @@
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
     "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
     "C_Cpp.formatting": "vcFormat",
-    "VSCord.checkIdle": false,
-    "VSCord.detailsIdle": "Doing some weird stuff most likely",
-    "VSCord.idleText": "Doing some weird stuff most likely",
     "VSCord.largeImage": "Making it look I know what {LANG} is about.",
-    "VSCord.largeImageIdle": "Doing some weird stuff most likely",
     "VSCord.lowerDetailsDebugging": "Debugging something with {problems} bugs...",
-    "VSCord.lowerDetailsIdle": "",
     "VSCord.lowerDetailsNotFound": "Doing some weird stuff most likely",
     "VSCord.problemsText": "{count}",
     "VSCord.appName": "Visual Studio Code"
