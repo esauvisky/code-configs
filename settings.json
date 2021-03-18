@@ -686,5 +686,6 @@
     "VSCord.checkIdle": false,
     "VSCord.detailsIdle": "",
     "VSCord.idleText": "",
-    "VSCord.largeImage": "Making it look I know how {LANG} works."
+    "VSCord.largeImage": "Making it look I know what {LANG} is about.",
+    "VSCord.largeImageIdle": ""
 }
