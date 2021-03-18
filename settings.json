@@ -692,4 +692,7 @@
     "VSCord.largeImageIdle": "Some weird stuff, for sure",
     "VSCord.smallImage": "Hi there 😘",
     "VSCord.lowerDetailsIdle": "{null}",
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
 }
