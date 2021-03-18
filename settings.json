@@ -681,5 +681,7 @@
     "C_Cpp.vcFormat.indent.caseContentsWhenBlock": true,
     "C_Cpp.vcFormat.newLine.beforeElse": false,
     "C_Cpp.vcFormat.newLine.beforeCatch": false,
-    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine"
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+    "C_Cpp.formatting": "vcFormat"
 }
