@@ -688,7 +688,6 @@
     "VSCord.problemsText": "{count}",
     "VSCord.appName": "VSCode ‎‍💻",
     "VSCord.detailsIdle": "{null}",
-    "VSCord.checkIdle": true,
     "VSCord.idleText": "Who knows?",
     "VSCord.largeImageIdle": "Some weird stuff, for sure",
     "VSCord.lowerDetailsIdle": "{null}",
@@ -697,4 +696,5 @@
     },
     "python.defaultInterpreterPath": "/usr/bin/python",
     "VSCord.id": "822102697758031882",
+    "VSCord.idleTimeout": 10,
 }
