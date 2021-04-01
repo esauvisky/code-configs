@@ -61,5 +61,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "HAL App",
+		"rootPath": "/home/emi/Pokemod/hal/application",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
