@@ -54,5 +54,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "Pokemod Frida",
+		"rootPath": "/home/emi/Pokemod/frida/frida",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
