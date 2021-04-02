@@ -68,5 +68,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "VPGP",
+		"rootPath": "/home/emi/Pokemod/bhagp",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
