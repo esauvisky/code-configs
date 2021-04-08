@@ -660,7 +660,6 @@
             "filenamePattern": "*.ipynb"
         }
     ],
-    "window.zoomLevel": -1,
     "python.languageServer": "Jedi",
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
@@ -696,4 +695,5 @@
     },
     "python.defaultInterpreterPath": "/usr/bin/python",
     "diffEditor.ignoreTrimWhitespace": false,
+    "window.zoomLevel": 1,
 }
