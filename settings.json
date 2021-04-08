@@ -695,4 +695,5 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "python.defaultInterpreterPath": "/usr/bin/python",
+    "diffEditor.ignoreTrimWhitespace": false,
 }
