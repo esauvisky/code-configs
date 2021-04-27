@@ -698,4 +698,5 @@
     },
     "python.defaultInterpreterPath": "/usr/bin/python",
     "window.zoomLevel": -2,
+    "diffEditor.ignoreTrimWhitespace": false,
 }
