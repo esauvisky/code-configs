@@ -702,4 +702,6 @@
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
+    "csharp2plantuml.allInOne": true,
+    "csharp2plantuml.public": false,
 }
