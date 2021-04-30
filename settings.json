@@ -699,4 +699,7 @@
     "python.defaultInterpreterPath": "/usr/bin/python",
     "window.zoomLevel": -1,
     "diffEditor.ignoreTrimWhitespace": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
 }
