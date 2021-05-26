@@ -26,7 +26,7 @@ define([
     class _CompositeBar extends compositeBar.CompositeBar {
         constructor(items, options) {
             if (options && (options.compositeSize == 50 || options.compositeSize == 52)  &&
-                (options.orientation == 1 || options.orientation == 2)) { // action bar
+                options.orientation == 2) { // action bar
                 options.orientation = 0; // horizontal
                 options.compositeSize = actionWidth;
                 options.overflowActionSize = actionWidth;
@@ -439,7 +439,7 @@ define([
         }
     }
 
-    resizeActivityBar = function(activityBarPosition) {
+    extendActivityBar = function() {
         // FIXME - this is copy and paste from title-bar module;
         let traffictLightDimensions = function() {
             let size = {
@@ -467,11 +467,11 @@ define([
         document.body.classList.add("activity-bar-wide");
     }
 
-    moveActivityBarToPosition = function(theme, hideSettings, activityBarPosition, moveStatusbar) {
+    moveActivityBarToBottom = function(theme, hideSettings) {
 
         compositeBar.CompositeBar = _CompositeBar;
         actionBar.ActionBar = _ActionBar;
-        const order = activityBarPosition === "bottom" ? 1 : 0;
+
         override(activitybarPart.ActivitybarPart, "layout", function (original, args) {
             let width = args[0];
             let height = args[1];
@@ -551,7 +551,7 @@ define([
 				a.maximumWidth = Infinity;
 				a.minimumHeight = actionHeight;
                 a.maximumHeight = actionHeight;
-				this.workbenchGrid.moveView(this.activityBarPartView, a.minimumHeight, this.sideBarPartView, order /* Down */);
+				this.workbenchGrid.moveView(this.activityBarPartView, a.minimumHeight, this.sideBarPartView, 1 /* Down */);
                 this.workbenchGrid.setViewVisible(this.activityBarPartView, !this.state.activityBar.hidden);
 
                 // restore sidebar size
@@ -574,7 +574,7 @@ define([
 				a.minimumHeight = 0;
 				a.maximumHeight = Infinity;
 				if (this.state.sideBar.position === 0 /* Left */) {
-                    this.workbenchGrid.moveViewTo(this.activityBarPartView, [order, 1 - order]);
+					this.workbenchGrid.moveViewTo(this.activityBarPartView, [1, 0]);
 				} else {
 				    this.workbenchGrid.moveView(this.activityBarPartView, 0, this.sideBarPartView, 3 /* Right */);
 				}
@@ -582,19 +582,17 @@ define([
         }
 
         layout.Layout.prototype._updateStatusBar = function(active) {
-            if (moveStatusbar) {
-                this.statusBarPartView.maximumHeight = 20;
-                if (active) {
-                    if (this.state.panel.position === 1 /* right */) {
-                        this.workbenchGrid.moveView(this.statusBarPartView, this.statusBarPartView.minimumHeight, this.editorPartView, 1 /* Down */);
-                    } else {
-                        let size = this.workbenchGrid.getViewSize(this.panelPartView);
-                        this.workbenchGrid.moveView(this.statusBarPartView, this.statusBarPartView.minimumHeight, this.panelPartView, 1 /* Down */);
-                        this.workbenchGrid.resizeView(this.panelPartView, size);
-                    }
-                } else {
-                    this.workbenchGrid.moveViewTo(this.statusBarPartView, [2]);
-                }
+            this.statusBarPartView.maximumHeight = 20;
+            if (active) {
+                if (this.state.panel.position === 1 /* right */) {
+					this.workbenchGrid.moveView(this.statusBarPartView, this.statusBarPartView.minimumHeight, this.editorPartView, 1 /* Down */);
+				} else {
+                    let size = this.workbenchGrid.getViewSize(this.panelPartView);
+                    this.workbenchGrid.moveView(this.statusBarPartView, this.statusBarPartView.minimumHeight, this.panelPartView, 1 /* Down */);
+                    this.workbenchGrid.resizeView(this.panelPartView, size);
+				}
+            } else {
+                this.workbenchGrid.moveViewTo(this.statusBarPartView, [2]);
             }
         }
 
@@ -641,19 +639,13 @@ define([
 
     let CustomizeActivityBar = class CustomizeActivityBar {
         constructor(configurationService, telemetry, themeService) {
-            let activityBarPosition = configurationService.getValue("customizeUI.activityBar");
-            switch (activityBarPosition) {
-                case "top":
-                case "bottom":
-                    let theme = themeService.getColorTheme ? themeService.getColorTheme() : themeService.getTheme();
-                    let hideSettings = configurationService.getValue("customizeUI.activityBarHideSettings");
-                    let moveStatusbar = configurationService.getValue("customizeUI.moveStatusbar");
-                    moveActivityBarToPosition(theme, hideSettings, activityBarPosition, moveStatusbar);
-                    break;
-                case "narrow": /* TODO: narrow sized activity bar */
-                case "wide":
-                    resizeActivityBar(activityBarPosition);
-                    break;
+            if (configurationService.getValue("customizeUI.activityBar") === "bottom") {
+                let theme = themeService.getColorTheme ? themeService.getColorTheme() : themeService.getTheme();
+                let hideSettings = configurationService.getValue("customizeUI.activityBarHideSettings");
+                moveActivityBarToBottom(theme, hideSettings);
+            }
+            if (configurationService.getValue("customizeUI.activityBar") === "wide") {
+                extendActivityBar();
             }
         }
     }
