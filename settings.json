@@ -709,4 +709,5 @@
     "csharp2plantuml.allInOne": true,
     "csharp2plantuml.public": false,
     "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.tabs.enabled": true,
 }
