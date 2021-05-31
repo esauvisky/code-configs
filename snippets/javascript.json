@@ -42,5 +42,14 @@
 			"});",
 		],
 		"description": "Creates a hook to get the main instance of singleton instances (i.e.: unique objects)."
+	},
+	"Better If": {
+		"prefix": "if",
+		"body": [
+			"if (${0}) {",
+			"    ",
+			"}",
+		],
+		"description": "Better if snippet"
 	}
 }
