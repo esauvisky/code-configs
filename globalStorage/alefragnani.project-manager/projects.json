@@ -75,5 +75,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "BetterDiscord",
+		"rootPath": "/home/emi/.config/BetterDiscord",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
