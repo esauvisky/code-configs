@@ -701,7 +701,6 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "python.defaultInterpreterPath": "/usr/bin/python",
-    "window.zoomLevel": -1,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
