@@ -82,5 +82,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "EWWW",
+		"rootPath": "/home/emi/Pokemod/EWWW",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
