@@ -57,7 +57,7 @@
 	},
 	{
 		"name": "Pokemod Frida",
-		"rootPath": "/home/emi/Pokemod/frida/frida",
+		"rootPath": "/home/emi/Pokemod/frida-fork/frida-base/",
 		"paths": [],
 		"group": "",
 		"enabled": true
