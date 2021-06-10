@@ -708,7 +708,6 @@
     "csharp2plantuml.public": false,
     "terminal.integrated.tabs.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "window.zoomLevel": -1,
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
