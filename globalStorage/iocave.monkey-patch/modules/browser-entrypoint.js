@@ -17,8 +17,8 @@ _bootstrapWindow.load = function(modulePaths, resultCallback, options) {
 			prevBeforeLoaderConfig(configuration, loaderConfig); 
 		loaderConfig.amdModulesPattern = /^vs\/|^monkey-generated\/|^customize-ui\//;
 		loaderConfig.paths = {
-			"customize-ui" : "../../../../../../../../home/emi/.config/Code - OSS/User/globalStorage/iocave.customize-ui/modules",
-			"monkey-generated" : "../../../../../../../../home/emi/.config/Code - OSS/User/globalStorage/iocave.monkey-patch/modules"
+			"customize-ui" : "../../../../home/emi/.config/Code - OSS/User/globalStorage/iocave.customize-ui/modules",
+			"monkey-generated" : "../../../../home/emi/.config/Code - OSS/User/globalStorage/iocave.monkey-patch/modules"
 		};
 		require.define("monkey-patch", {
 			load: function (name, req, onload, config) {
