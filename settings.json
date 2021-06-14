@@ -711,4 +711,5 @@
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
+    "json.maxItemsComputed": 10000,
 }
