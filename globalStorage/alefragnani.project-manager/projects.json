@@ -89,5 +89,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "Atlas Agent",
+		"rootPath": "/home/emi/Pokemod/atlas/core",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
