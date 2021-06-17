@@ -700,7 +700,7 @@
     "[typescript]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
-    "python.defaultInterpreterPath": "/usr/bin/python",
+    "python.defaultInterpreterPath": "/home/emi/Pokemod/pokemod-dumps/.venv/bin/python3.9",
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
