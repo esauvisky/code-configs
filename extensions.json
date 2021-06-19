@@ -43,6 +43,7 @@
 	"ms-toolsai.jupyter",
 	"ms-vscode-remote.remote-ssh",
 	"ms-vscode.cpptools",
+	"msjsdiag.debugger-for-chrome",
 	"njpwerner.autodocstring",
 	"pierre3.csharp-to-plantuml",
 	"PKief.material-icon-theme",
