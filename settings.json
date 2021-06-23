@@ -249,6 +249,9 @@
         },
         "javascript:S125": {
             "level": "off"
+        },
+        "javascript:S3500": {
+            "level": "off"
         }
     },
     "python.linting.flake8Args": [
