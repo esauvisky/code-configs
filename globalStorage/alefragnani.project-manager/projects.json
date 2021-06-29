@@ -96,5 +96,12 @@
 		"paths": [],
 		"group": "",
 		"enabled": true
+	},
+	{
+		"name": "frida-compile",
+		"rootPath": "/home/emi/Pokemod/frida/frida-compile",
+		"paths": [],
+		"group": "",
+		"enabled": true
 	}
 ]
