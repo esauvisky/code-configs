@@ -3,105 +3,112 @@
 		"name": "arch-install",
 		"rootPath": "/home/emi/Coding/Projects/arch-install",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Dittolib Hooking Library",
 		"rootPath": "/home/emi/Pokemod/dittolib",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Pokemod Modules",
 		"rootPath": "/home/emi/Pokemod/modules",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Pokemod Dumps",
 		"rootPath": "/home/emi/Pokemod/pokemod-dumps",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Pokemod API",
 		"rootPath": "/home/emi/Pokemod/hal/api",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "SpongyElephant",
 		"rootPath": "/home/emi/Coding/SpongyElephant",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Atlas Hardware",
 		"rootPath": "/home/emi/Pokemod/atlas/hardware",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Emi's ]Enhanced Discord",
 		"rootPath": "/home/emi/.config/EnhancedDiscord",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Pokemod Frida",
 		"rootPath": "/home/emi/Pokemod/frida/frida-base/",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "HAL App",
 		"rootPath": "/home/emi/Pokemod/hal/application",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "VPGP",
 		"rootPath": "/home/emi/Pokemod/bhagp",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "BetterDiscord",
 		"rootPath": "/home/emi/.config/BetterDiscord",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "EWWW",
 		"rootPath": "/home/emi/Pokemod/EWWW",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "Atlas Agent",
 		"rootPath": "/home/emi/Pokemod/atlas/core",
 		"paths": [],
-		"group": "",
+		"tags": [],
 		"enabled": true
 	},
 	{
 		"name": "frida-compile",
 		"rootPath": "/home/emi/Pokemod/frida/frida-compile",
 		"paths": [],
-		"group": "",
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Pokemod Website",
+		"rootPath": "/home/emi/Pokemod/pokemod-website",
+		"paths": [],
+		"tags": [],
 		"enabled": true
 	}
 ]
