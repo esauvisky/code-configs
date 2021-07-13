@@ -664,12 +664,9 @@
     "python.experiments.optInto": [
     "All"
     ],
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "python.languageServer": "Jedi",
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
