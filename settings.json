@@ -263,7 +263,6 @@
         "--hang-closing",
         "-aaaaa"
     ],
-    "python.autoComplete.addBrackets": true,
     "python.globalModuleInstallation": false,
     "[python]": {
 
