@@ -661,7 +661,7 @@
     "gitlens.views.repositories.location": "scm",
     "gitlens.views.repositories.showTrackingBranch": false,
     "python.experiments.optInto": ["tryPylance"],
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Pylance",
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
     "apklab.apktoolPath": "/home/emi/.apklab/apktool_2.5.0.jar",
