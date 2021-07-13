@@ -660,12 +660,7 @@
     "gitlens.views.repositories.includeWorkingTree": false,
     "gitlens.views.repositories.location": "scm",
     "gitlens.views.repositories.showTrackingBranch": false,
-    "python.experiments.optInto": [
-    "All"
-    ],
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
+    "python.experiments.optInto": ["tryPylance"],
     "python.languageServer": "Microsoft",
     "apklab.apkSignerPath": "/home/emi/.apklab/uber-apk-signer-1.2.1.jar",
     "apklab.jadxDirPath": "/home/emi/.apklab/jadx-1.2.0",
