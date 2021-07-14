@@ -110,5 +110,12 @@
 		"paths": [],
 		"tags": [],
 		"enabled": true
+	},
+	{
+		"name": "Luminosity",
+		"rootPath": "/home/emi/Pokemod/luminosity",
+		"paths": [],
+		"tags": [],
+		"enabled": true
 	}
 ]
