@@ -266,7 +266,7 @@
     "python.globalModuleInstallation": false,
     "[python]": {
 
-        "editor.defaultFormatter": "ms-python.vscode-pylance",
+        "editor.defaultFormatter": "ms-python.python",
         "editor.autoIndent": "full",
         "editor.wordBasedSuggestions": false
     },
